@@ -37,29 +37,113 @@ nesta etapa.
 
 \subsection{Requisitos Funcionais}
 
-\begin{rfreq}{Requisito...}
-    Descrição do Requisito...
-
+\begin{rfreq}{RF01: Coleta de Dados}
+    Coletar dados de temperatura e umidade do ambiente, utilizando sensores de temperatura e umidade.
+    
     Prioridade: Essencial.
 \end{rfreq}
 
-\begin{rfreq}{Próximo requisito...}
-    Descrição do requisito...
+\begin{rfreq}{RF02: Monitoramento em Tempo Real}
+    Exibir os dados de temperatura e umidade em tempo real através da interface web.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RF03: Alternância de Modos}
+    Permitir que o usuário alterne entre os modos de operação: desligado, automático e ligado.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RF04: Feedback Visual}
+    Controlar o acionamento de LEDs de acordo com o modo de operação selecionado no sistema.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RF05: Controle via Web}
+    Receber comandos originados na interface web e refletir as alterações no hardware.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RF06: Lógica de Modos}
+    Operar em diferentes modos (manual ou automático), apresentando comportamentos distintos para cada um.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RF07: Histórico de Dados}
+    Registrar o histórico de leituras dos sensores, incluindo a data e a hora de cada medição.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RF08: Sistema de Alertas}
+    Emitir alertas sempre que os valores coletados ultrapassarem os limites pré-estabelecidos.
+    
+    Prioridade: Desejável.
+\end{rfreq}
+
+\begin{rfreq}{RF09: Notificação por E-mail}
+    Enviar notificações por e-mail quando o sistema detectar condições fora dos parâmetros normais.
+    
+    Prioridade: Desejável.
+\end{rfreq}
+
+\begin{rfreq}{RF10: Armazenamento de Logs}
+    Salvar logs de funcionamento e eventos do sistema em arquivos para consulta posterior.
+    
+    Prioridade: Desejável.
+\end{rfreq}
+
+\begin{rfreq}{RF11: Acesso Mobile}
+    Disponibilizar uma interface via aplicativo mobile para monitoramento remoto.
+
+    Prioridade: Desejável.
+\end{rfreq}
+%%
+%\newpage
+\subsection{Requisitos Não Funcionais}
+
+\begin{rfreq}{RNF01: Desempenho (Tempo Real)}
+    Os dados coletados pelos sensores devem ser exibidos nas interfaces web e mobile em tempo real, com latência mínima perceptível.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RNF02: Conectividade}
+    O sistema deve garantir uma comunicação estável e eficiente entre o hardware e a interface web para o envio e recebimento de comandos.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RNF03: Precisão e Faixa de Operação}
+    Os sensores utilizados devem apresentar alta precisão e uma faixa de leitura adequada às variações térmicas e de umidade do ambiente monitorado.
+    
+    Prioridade: Essencial.
+\end{rfreq}
+
+\begin{rfreq}{RNF04: Eficiência Energética}
+    O hardware deve ser projetado para operar com baixo consumo de energia, visando a sustentabilidade e autonomia do sistema.
     
     Prioridade: Importante.
 \end{rfreq}
-%%
-\newpage
-\subsection{Requisitos Não-Funcionais}
 
-\begin{nfreq}{Requisito não funcional}
-    Descrição do requisito...
+\begin{rfreq}{RNF05: Manutenibilidade}
+    O código-fonte e a arquitetura do sistema devem ser documentados e estruturados de forma a facilitar futuras manutenções e atualizações.
+    
+    Prioridade: Importante.
+\end{rfreq}
 
-    Prioridade: Essencial.
-\end{nfreq}
-
-\begin{nfreq}{Requisito não funcional}
-    Descrição do requisito...
-
+\begin{rfreq}{RNF06: Usabilidade}
+    A interface com o usuário deve ser intuitiva, agradável e de fácil navegação, proporcionando uma boa experiência de uso.
+    
     Prioridade: Desejável.
-\end{nfreq}
+\end{rfreq}
+
+\begin{rfreq}{RNF07: Confiabilidade}
+    O sistema deve ser resiliente e confiável na leitura e processamento dos dados, minimizando falhas de interpretação ou perda de pacotes.
+    
+    Prioridade: Essencial.
+\end{rfreq}

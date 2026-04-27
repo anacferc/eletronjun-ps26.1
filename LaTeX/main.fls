@@ -1,8 +1,8 @@
-PWD c:/Users/Cláudio/Downloads/LaTeX/eletronjun-ps26.1/LaTeX
+PWD c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX
 INPUT c:/texlive/2026/texmf.cnf
 INPUT c:/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/Cláudio/Downloads/LaTeX/eletronjun-ps26.1/LaTeX/main.tex
+INPUT c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -539,7 +539,6 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
-OUTPUT main.toc
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
@@ -550,6 +549,11 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+OUTPUT main.toc
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
 INPUT ./Seções/Introducao.tex
 INPUT ./Seções/Introducao.tex
 INPUT Seções/Introducao.tex
@@ -573,6 +577,10 @@ INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
