@@ -1,8 +1,8 @@
-PWD c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX
+PWD c:/Users/Paulo Menezes/Desktop/UnB/EletronJun/ps 26.1/eletronjun-ps26.1/LaTeX
 INPUT c:/texlive/2026/texmf.cnf
 INPUT c:/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex
+INPUT c:/Users/Paulo Menezes/Desktop/UnB/EletronJun/ps 26.1/eletronjun-ps26.1/LaTeX/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
