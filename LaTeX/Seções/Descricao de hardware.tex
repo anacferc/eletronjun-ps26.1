@@ -98,4 +98,47 @@ As conexões com os sensores são responsáveis pela execução e funcionamento 
 \end{longtable}
 }
 
+\subsection{Alimentação}
+Na alimentação do nosso sensor, podem ser utilizadas duas formas de fornecer energia: por meio de uma fonte de 5V DC, ou por meio de uma bateria de 9V conectada ao pino VIN/DC. Caso escolha utilizar a fonte, elas regulam a tensão sem chaveamento de alta frequência, minimizando ruídos na leitura do sensor de temperatura. Caso contrário, as baterias fornecem uma tensão contínua pura, não produzindo qualquer tipo de ruído. São dois ótimos tipos de alimentação do sistema, ficando a critério do cliente, se deseja algo fixo ou algo portátil.
 
+{    
+\small % Define o tamanho da fonte para a tabela
+\begin{longtable}{|m{2.5cm}|m{3.5cm}|m{7cm}|}
+    
+    % Legenda no topo da tabela
+    \caption{Alimentação} \label{tab:Alimentação} \\
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endfirsthead % O que aparece no topo da primeira página
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endhead % O que aparece no topo das páginas seguintes se a tabela quebrar
+    
+    \hline
+    \endfoot % O que aparece no rodapé de cada página da tabela
+    
+    % --- CONTEÚDO DA LINHA 1 ---
+    Fonte 5V 1A Bivolt \par
+    R\% 16,90 - R\%20,00& 
+    \centering \includegraphics[width=2cm]{imagens/fonte.png} & 
+    1. Tensão de entrada	Bivolt 100~240VAC 47~64Hz \par
+    2. Tensão de saída	5VDC \par
+    3. Corrente de saída máxima	1A
+    4. Conector	P4 - Centro Positivo
+    5. Diâmetro Furo Interno	2.1mm
+    6. Diâmetro Externo	5.5mm\\ \hline
+    
+    % --- CONTEÚDO DA LINHA 2 ---
+    Philips Bateria Alcalina 9V \par
+    R\$25,00 & \centering \includegraphics[width=2cm]{imagens/bateria.png} &\\ \hline
+
+    % --- CONTEÚDO DA LINHA 3 ---
+    Adaptador de Bateria 9v com Plug P4 \par
+    R\$2,50 - & \centering \includegraphics[width=2cm]{imagens/adaptador9v.png} &
+    1. Diâmetro Furo Interno	2.1mm
+    2. Diâmetro Externo	5.5mm
+    3. Plug	P4 Macho\\ \hline
+\end{longtable}
+}
