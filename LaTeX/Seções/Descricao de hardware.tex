@@ -7,14 +7,14 @@ O sistema é composto por sensores que captam a temperatura e umidade, que são 
 
 \subsection{Unidade de Controle}
 
-A unidade de controle é a parte responsável por executar os requisitos propostos e controlar a execução do sistema. 
+A unidade de controle é a parte responsável por executar os requisitos propostos e controlar a execução do sistema. Para isso, será utilizado um microcontrolador ESP8266, por contra da integração com o Wi-Fi, sendo de extrema importância para conexão com o sistema. Também está presente o sensor de umidade e temperatura DHT11, que será responsável pela captação dos parâmetros necessários.
 
 {
 \small % Define o tamanho da fonte para a tabela
 \begin{longtable}{|m{2.5cm}|m{3.5cm}|m{7cm}|}
     
     % Legenda no topo da tabela
-    \caption{Comparativo de Modelos} \label{tab:Comparativo_de_Modelos} \\
+    \caption{Microcontroladores} \label{tab:Microcontroladores} \\
     
     \hline
     \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
@@ -45,9 +45,57 @@ A unidade de controle é a parte responsável por executar os requisitos propost
     12. IDE Arduino, Python \par 
     13. Dimensões: 60 x 32 x 15 mm \\ \hline
     
-    % --- LINHA 2 VAZIA ---
-   
-    \\ \hline
+    % --- CONTEÚDO DA LINHA 2 ---
+    Sensor de Umidade e Temperatura DHT11 \par
+    R\$6,99 -- R\$21,89 & \centering \includegraphics[width=2cm]{imagens/sensordht11.png} &
+    1. Alimentação 3,0 a 5,0 VDC (5,5 Vdc máximo) \par
+    2. Faixa de medição de umidade	20 a 95\% UR \par
+    3. Faixa de medição de temperatura	0° a 50°C \par
+    4. Precisão de umidade de medição ± 5,0\% UR \par
+    5. Precisão de medição de temperatura \\ \hline
 
 \end{longtable}
 }
+
+\subsection{Conexões com sensores}
+
+As conexões com os sensores são responsáveis pela execução e funcionamento dos sensores e de onde eles são executados. Com isso, utilizaremos uma Placa Fenolite Perfurada, onde as conexões serão executadas e se tornarão funcionais, também incluiremos os jumpers macho-fêmea, para fazer a ligação entre o microprocessador e o sensor. Por fim, utilizaremos um resistor de 10k ohms, que é necessário para trabalhar com sensores DHT e garante a estabilidade do sinal de dados entre o sensor e o microcontrolador.
+
+{    
+\small % Define o tamanho da fonte para a tabela
+\begin{longtable}{|m{2.5cm}|m{3.5cm}|m{7cm}|}
+    
+    % Legenda no topo da tabela
+    \caption{Conexões} \label{tab:Conexoes} \\
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endfirsthead % O que aparece no topo da primeira página
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endhead % O que aparece no topo das páginas seguintes se a tabela quebrar
+    
+    \hline
+    \endfoot % O que aparece no rodapé de cada página da tabela
+    
+    % --- CONTEÚDO DA LINHA 1 ---
+    Placa Fenolite Perfurada 7x5cm \par
+    R\$ 2,38 -- R\$ 4,90 & 
+    \centering \includegraphics[width=2cm]{imagens/placafenolite.png} & 
+    1. Dimensões Placa	5cm x 7cm \par
+    2. Dimensões Furos	1 mm \par
+    3. Dimensões Ilha	2,54 mm\\ \hline
+    
+    % --- CONTEÚDO DA LINHA 2 ---
+    Jumpers - Macho/Femea \par
+    R\% 4,66 --  R\$ 19,98& \centering \includegraphics[width=2cm]{imagens/jumpersmachofemea.png} &\\ \hline
+    
+    % --- CONTEÚDO DA LINHA 3 ---
+    Resistor 10K 1/4W \par 
+    R\$0,22 -- R\$ 0,86 & \centering \includegraphics[width=2cm]{imagens/resistor.png} &\\ \hline
+
+\end{longtable}
+}
+
+

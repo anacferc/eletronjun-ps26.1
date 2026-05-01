@@ -618,6 +618,11 @@ INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
+INPUT ./imagens/sensordht11.png
+INPUT ./imagens/sensordht11.png
+INPUT ./imagens/sensordht11.png
+INPUT ./imagens/sensordht11.png
+INPUT ./imagens/sensordht11.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
@@ -627,6 +632,25 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
+INPUT ./imagens/placafenolite.png
+INPUT ./imagens/placafenolite.png
+INPUT ./imagens/placafenolite.png
+INPUT ./imagens/placafenolite.png
+INPUT ./imagens/placafenolite.png
+INPUT ./imagens/jumpersmachofemea.png
+INPUT ./imagens/jumpersmachofemea.png
+INPUT ./imagens/jumpersmachofemea.png
+INPUT ./imagens/jumpersmachofemea.png
+INPUT ./imagens/jumpersmachofemea.png
+INPUT ./imagens/resistor.png
+INPUT ./imagens/resistor.png
+INPUT ./imagens/resistor.png
+INPUT ./imagens/resistor.png
+INPUT ./imagens/resistor.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
 INPUT ./Seções/Descricao de Alto nivel.tex
 INPUT ./Seções/Descricao de Alto nivel.tex
 INPUT Seções/Descricao de Alto nivel.tex
