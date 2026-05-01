@@ -1,10 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1777655683.50854 "c:/Users/Cláudio/Downloads/LaTeX/eletronjun-ps26.1/LaTeX/main.tex" "main.pdf" "main" 1777655695.22917 0
+["pdflatex"] 1777656273.56164 "c:/Users/Cláudio/Downloads/LaTeX/eletronjun-ps26.1/LaTeX/main.tex" "main.pdf" "main" 1777656282.857 0
   "Seções/Analise de Requisitos.tex" 1777650453 6554 c41e268795509099c186d12a9f96ea37 ""
   "Seções/BOM.tex" 1776460968 99 e8f1bea60d2c56b5ee15941b59a8496e ""
   "Seções/Descricao de Alto nivel.tex" 1776460762 469 0a81fcd0c4bc002302c1b68bd0cab314 ""
   "Seções/Descricao de Firmware.tex" 1776462124 98 6cd67c82a46bfcba81d9c09e46fbf557 ""
-  "Seções/Descricao de Hardware.tex" 1777655679 235 c55471c02e4afd81c3d43c3714050a25 ""
+  "Seções/Descricao de Hardware.tex" 1777656233 537 9176ab391c967858b2e272d69306ac6e ""
   "Seções/Diagrama de Blocos.tex" 1776461324 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Seções/Introducao.tex" 1777650453 1152 02dc858b2ff2d0edddb229d699511922 ""
   "Seções/Modelagem de Circuito.tex" 1776461344 0 d41d8cd98f00b204e9800998ecf8427e ""
@@ -298,10 +298,10 @@
   "img_arquivo/capaEJ.png" 1775142816 65134 acc1a2056a8840311dd8f72c525fa139 ""
   "img_arquivo/fundo_default.png" 1775142816 23552 4d20513db1fb46fc656601af46054e95 ""
   "includes.tex" 1775142816 12662 6b1e84582fa75394066e8b0200167306 ""
-  "main.aux" 1777655693 5811 f57c7f8c1555d221c777a1476720f906 "pdflatex"
-  "main.out" 1777655693 7174 b1c4f1fc128a628481e8de6194501350 "pdflatex"
+  "main.aux" 1777656281 5938 b723c42cafdb2e4641318a63bcef8fba "pdflatex"
+  "main.out" 1777656281 7333 e399140ca66e7349e4a42821ca61d9b3 "pdflatex"
   "main.tex" 1775142816 1112 b69aae1c0d2e8504b0c02178ce85ffdc ""
-  "main.toc" 1777655693 3809 6fb92be878168ba381461b886e1b32a6 "pdflatex"
+  "main.toc" 1777656281 3895 0e7b6dd3465768592a0f52d050f75591 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
