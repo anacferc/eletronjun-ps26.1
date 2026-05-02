@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.24)  2 MAY 2026 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.24)  2 MAY 2026 00:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1061,23 +1061,23 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 10.
 (c:/texlive/2026/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (./capa.tex
-<img_arquivo/Brjr.png, id=163, 442.65375pt x 245.91875pt>
+<img_arquivo/Brjr.png, id=167, 442.65375pt x 245.91875pt>
 File: img_arquivo/Brjr.png Graphic file (type png)
 <use img_arquivo/Brjr.png>
 Package pdftex.def Info: img_arquivo/Brjr.png  used on input line 21.
 (pdftex.def)             Requested size: 137.42426pt x 76.34659pt.
-<img_arquivo/UnB.pdf, id=164, 52.195pt x 47.17625pt>
+<img_arquivo/UnB.pdf, id=168, 52.195pt x 47.17625pt>
 File: img_arquivo/UnB.pdf Graphic file (type pdf)
 <use img_arquivo/UnB.pdf>
 Package pdftex.def Info: img_arquivo/UnB.pdf  used on input line 25.
 (pdftex.def)             Requested size: 71.69801pt x 64.81244pt.
-<img_arquivo/Concentro.png, id=165, 284.06125pt x 144.54pt>
+<img_arquivo/Concentro.png, id=169, 284.06125pt x 144.54pt>
 File: img_arquivo/Concentro.png Graphic file (type png)
 <use img_arquivo/Concentro.png>
 Package pdftex.def Info: img_arquivo/Concentro.png  used on input line 29.
 (pdftex.def)             Requested size: 137.42426pt x 69.92757pt.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd) (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
-<img_arquivo/capaEJ.png, id=167, 597.73312pt x 845.40843pt>
+<img_arquivo/capaEJ.png, id=171, 597.73312pt x 845.40843pt>
 File: img_arquivo/capaEJ.png Graphic file (type png)
 <use img_arquivo/capaEJ.png>
 Package pdftex.def Info: img_arquivo/capaEJ.png  used on input line 48.
@@ -1085,7 +1085,7 @@ Package pdftex.def Info: img_arquivo/capaEJ.png  used on input line 48.
  [1
 
 {c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc} <./img_arquivo/capaEJ.png> <./img_arquivo/Brjr.png> <./img_arquivo/UnB.pdf> <./img_arquivo/Concentro.png>]) (./main.toc
-<img_arquivo/fundo_default.png, id=216, 597.73312pt x 845.40843pt>
+<img_arquivo/fundo_default.png, id=220, 597.73312pt x 845.40843pt>
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
 Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 35.
@@ -1124,7 +1124,7 @@ File: img_arquivo/fundo_default.png Graphic file (type png)
 Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 23.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
  [7] (./Seções/Diagrama de Blocos.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--4
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
@@ -1143,7 +1143,7 @@ Overfull \hbox (3.32733pt too wide) in paragraph at lines 31--31
 []|\T1/phv/m/n/10 Microcontrolador
  []
 
-<imagens/microcontrolador.png, id=280, 232.61906pt x 152.06813pt>
+<imagens/microcontrolador.png, id=291, 232.61906pt x 152.06813pt>
 File: imagens/microcontrolador.png Graphic file (type png)
 <use imagens/microcontrolador.png>
 Package pdftex.def Info: imagens/microcontrolador.png  used on input line 33.
@@ -1156,7 +1156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 []\T1/phv/m/n/10 R$6,99 --
  []
 
-<imagens/sensordht11.png, id=281, 183.68625pt x 192.72pt>
+<imagens/sensordht11.png, id=292, 183.68625pt x 192.72pt>
 File: imagens/sensordht11.png Graphic file (type png)
 <use imagens/sensordht11.png>
 Package pdftex.def Info: imagens/sensordht11.png  used on input line 50.
@@ -1182,12 +1182,12 @@ Underfull \hbox (badness 1472) in paragraph at lines 84--84
 []\T1/phv/m/n/10 R$ 2,38 -- R$
  []
 
-<imagens/placafenolite.png, id=289, 316.18124pt x 269.50688pt>
+<imagens/placafenolite.png, id=299, 316.18124pt x 269.50688pt>
 File: imagens/placafenolite.png Graphic file (type png)
 <use imagens/placafenolite.png>
 Package pdftex.def Info: imagens/placafenolite.png  used on input line 85.
 (pdftex.def)             Requested size: 56.9055pt x 48.50502pt.
-<imagens/jumpersmachofemea.png, id=290, 295.85532pt x 249.18094pt>
+<imagens/jumpersmachofemea.png, id=300, 295.85532pt x 249.18094pt>
 File: imagens/jumpersmachofemea.png Graphic file (type png)
 <use imagens/jumpersmachofemea.png>
 Package pdftex.def Info: imagens/jumpersmachofemea.png  used on input line 92.
@@ -1202,7 +1202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []\T1/phv/m/n/10 R$0,22 -- R$
  []
 
-<imagens/resistor.png, id=291, 268.75406pt x 240.9pt>
+<imagens/resistor.png, id=301, 268.75406pt x 240.9pt>
 File: imagens/resistor.png Graphic file (type png)
 <use imagens/resistor.png>
 Package pdftex.def Info: imagens/resistor.png  used on input line 96.
@@ -1216,7 +1216,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []\T1/phv/m/n/10 R% 16,90 -
  []
 
-<imagens/fonte.png, id=301, 274.77657pt x 290.58563pt>
+<imagens/fonte.png, id=311, 274.77657pt x 290.58563pt>
 File: imagens/fonte.png Graphic file (type png)
 <use imagens/fonte.png>
 Package pdftex.def Info: imagens/fonte.png  used on input line 125.
@@ -1226,7 +1226,7 @@ Underfull \hbox (badness 7722) in paragraph at lines 134--134
 []|\T1/phv/m/n/10 Philips Ba-te-ria
  []
 
-<imagens/bateria.png, id=302, 190.46156pt x 366.61969pt>
+<imagens/bateria.png, id=312, 190.46156pt x 366.61969pt>
 File: imagens/bateria.png Graphic file (type png)
 <use imagens/bateria.png>
 Package pdftex.def Info: imagens/bateria.png  used on input line 135.
@@ -1236,7 +1236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []|\T1/phv/m/n/10 Adaptador de
  []
 
-<imagens/adaptador9v.png, id=303, 264.23718pt x 237.13594pt>
+<imagens/adaptador9v.png, id=313, 264.23718pt x 237.13594pt>
 File: imagens/adaptador9v.png Graphic file (type png)
 <use imagens/adaptador9v.png>
 Package pdftex.def Info: imagens/adaptador9v.png  used on input line 139.
@@ -1274,21 +1274,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EEB2E389CF6761B35CFFC0307891A227;7731.
+(rerunfilecheck)             Checksum: 7D98547E40FBFAD6F892A60AB0933046;7865.
  ) 
 Here is how much of TeX's memory you used:
- 42093 strings out of 467349
- 934240 string characters out of 5419862
- 1565012 words of memory out of 5000000
- 70302 multiletter control sequences out of 15000+600000
+ 42104 strings out of 467349
+ 934408 string characters out of 5419862
+ 1565013 words of memory out of 5000000
+ 70307 multiletter control sequences out of 15000+600000
  671183 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,97p,1136b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (17 pages, 1009844 bytes).
+Output written on main.pdf (17 pages, 1010999 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 313 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 390 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 

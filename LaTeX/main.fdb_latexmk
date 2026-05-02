@@ -1,15 +1,15 @@
 # Fdb version 4
-["pdflatex"] 1777691666.89627 "c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex" "main.pdf" "main" 1777691670.12946 0
+["pdflatex"] 1777694087.17401 "c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex" "main.pdf" "main" 1777694089.95847 0
   "Seções/Analise de Requisitos.tex" 1777691647 6918 3ef885b4672e5c1bcbf74ebe7c616c35 ""
   "Seções/BOM.tex" 1777691478 101 e8f1bea60d2c56b5ee15941b59a8496e ""
   "Seções/Descricao de Alto nivel.tex" 1777691478 476 0a81fcd0c4bc002302c1b68bd0cab314 ""
   "Seções/Descricao de Firmware.tex" 1777691478 98 6cd67c82a46bfcba81d9c09e46fbf557 ""
   "Seções/Descricao de Hardware.tex" 1777691478 6756 a50d55a6a28826c04c5c03f9593f411c ""
   "Seções/Descricao_de_Software.tex" 1777691478 634 5fca4c32f9d4db312a2dbb8ab3750e1d ""
-  "Seções/Diagrama de Blocos.tex" 1777691665 1041 94017b0d6ec81df84430ca61d37def82 ""
+  "Seções/Diagrama de Blocos.tex" 1777694084 1946 fa3d7c56e6f2b958c24d5d8418d7b47b ""
   "Seções/Introducao.tex" 1777691652 1212 c992be2179a397ef1fd8f101d1161c80 ""
   "Seções/Modelagem de Circuito.tex" 1777691478 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex" 1777691536 1249 5cc0f4153c5254149d520f01ad43d9fa ""
+  "c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex" 1777691983 1249 5cc0f4153c5254149d520f01ad43d9fa ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1777078420 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1777077305 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1777079149 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -311,10 +311,10 @@
   "img_arquivo/capaEJ.png" 1777691478 65134 acc1a2056a8840311dd8f72c525fa139 ""
   "img_arquivo/fundo_default.png" 1777691478 23552 4d20513db1fb46fc656601af46054e95 ""
   "includes.tex" 1777691478 12991 d7003b71bac5fe97ccacbbae2ff4b94f ""
-  "main.aux" 1777691669 7160 a73e0e1703269eec4b4268098dd2d86f "pdflatex"
-  "main.out" 1777691669 7731 eeb2e389cf6761b35cffc0307891a227 "pdflatex"
-  "main.tex" 1777691536 1249 5cc0f4153c5254149d520f01ad43d9fa ""
-  "main.toc" 1777691669 4107 7f7e876e712058df0933d848e4161aef "pdflatex"
+  "main.aux" 1777694089 7281 66ba324fc658e02aa6f6f1f680ae0e4e "pdflatex"
+  "main.out" 1777694089 7865 7d98547e40fbfad6f892a60ab0933046 "pdflatex"
+  "main.tex" 1777691983 1249 5cc0f4153c5254149d520f01ad43d9fa ""
+  "main.toc" 1777694089 4187 3e39d2b91753439e01842ff4f453395f "pdflatex"
   (generated)
   "main.aux"
   "main.log"
