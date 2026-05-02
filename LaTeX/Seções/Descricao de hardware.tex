@@ -1,0 +1,144 @@
+O hardware do equipamento foi organizado em 3 grandes partes: A unidade de controle, as conexões com os sensores e a alimentação do circuito.
+
+\subsection{Arquitetura Geral}
+
+
+O sistema é composto por sensores que captam a temperatura e umidade, que são administrados por um microcontrolador via Wi-Fi que envia as informações para o banco de dados. Esses dados são processados para a interface web que exemplifica para o cliente em que temperatura e umidade o local que ele está se encontra.
+
+\subsection{Unidade de Controle}
+
+A unidade de controle é a parte responsável por executar os requisitos propostos e controlar a execução do sistema. Para isso, será utilizado um microcontrolador ESP8266, por contra da integração com o Wi-Fi, sendo de extrema importância para conexão com o sistema. Também está presente o sensor de umidade e temperatura DHT11, que será responsável pela captação dos parâmetros necessários.
+
+{
+\small % Define o tamanho da fonte para a tabela
+\begin{longtable}{|m{2.5cm}|m{3.5cm}|m{7cm}|}
+    
+    % Legenda no topo da tabela
+    \caption{Microcontroladores} \label{tab:Microcontroladores} \\
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endfirsthead % O que aparece no topo da primeira página
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endhead % O que aparece no topo das páginas seguintes se a tabela quebrar
+    
+    \hline
+    \endfoot % O que aparece no rodapé de cada página da tabela
+    
+    % --- CONTEÚDO DA LINHA 1 ---
+    Microcontrolador Wi-Fi ESP8266 \par (NodeMCU) \par
+    R\$ 22,77 -- R\$ 39,40 & 
+    \centering \includegraphics[width=2cm]{imagens/microcontrolador.png} & 
+    1. Memória RAM: 20 kb \par 
+    2. Tensão de operação: 5V a 9V \par 
+    3. Programação/Alimentação: Micro-USB \par 
+    4. Chip WiFi ESP8266 12E \par 
+    5. Corrente média: 70 mA \par 
+    6. 10 portas GPIOs \par 
+    7. 01 porta ADC 10 bits \par 
+    8. 3 Modos de operação \par 
+    9. Suporta 5 conexões TCP/IP \par 
+    10. Pinos GND, VIN e 3.3V \par 
+    11. Temp: -40°C a +125°C \par 
+    12. IDE Arduino, Python \par 
+    13. Dimensões: 60 x 32 x 15 mm \\ \hline
+    
+    % --- CONTEÚDO DA LINHA 2 ---
+    Sensor de Umidade e Temperatura DHT11 \par
+    R\$6,99 -- R\$21,89 & \centering \includegraphics[width=2cm]{imagens/sensordht11.png} &
+    1. Alimentação 3,0 a 5,0 VDC (5,5 Vdc máximo) \par
+    2. Faixa de medição de umidade	20 a 95\% UR \par
+    3. Faixa de medição de temperatura	0° a 50°C \par
+    4. Precisão de umidade de medição ± 5,0\% UR \par
+    5. Precisão de medição de temperatura \\ \hline
+
+\end{longtable}
+}
+
+\subsection{Conexões com sensores}
+
+As conexões com os sensores são responsáveis pela execução e funcionamento dos sensores e de onde eles são executados. Com isso, utilizaremos uma Placa Fenolite Perfurada, onde as conexões serão executadas e se tornarão funcionais, também incluiremos os jumpers macho-fêmea, para fazer a ligação entre o microprocessador e o sensor. Por fim, utilizaremos um resistor de 10k ohms, que é necessário para trabalhar com sensores DHT e garante a estabilidade do sinal de dados entre o sensor e o microcontrolador.
+
+{    
+\small % Define o tamanho da fonte para a tabela
+\begin{longtable}{|m{2.5cm}|m{3.5cm}|m{7cm}|}
+    
+    % Legenda no topo da tabela
+    \caption{Conexões} \label{tab:Conexoes} \\
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endfirsthead % O que aparece no topo da primeira página
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endhead % O que aparece no topo das páginas seguintes se a tabela quebrar
+    
+    \hline
+    \endfoot % O que aparece no rodapé de cada página da tabela
+    
+    % --- CONTEÚDO DA LINHA 1 ---
+    Placa Fenolite Perfurada 7x5cm \par
+    R\$ 2,38 -- R\$ 4,90 & 
+    \centering \includegraphics[width=2cm]{imagens/placafenolite.png} & 
+    1. Dimensões Placa	5cm x 7cm \par
+    2. Dimensões Furos	1 mm \par
+    3. Dimensões Ilha	2,54 mm\\ \hline
+    
+    % --- CONTEÚDO DA LINHA 2 ---
+    Jumpers - Macho/Femea \par
+    R\% 4,66 --  R\$ 19,98& \centering \includegraphics[width=2cm]{imagens/jumpersmachofemea.png} &\\ \hline
+    
+    % --- CONTEÚDO DA LINHA 3 ---
+    Resistor 10K 1/4W \par 
+    R\$0,22 -- R\$ 0,86 & \centering \includegraphics[width=2cm]{imagens/resistor.png} &\\ \hline
+
+\end{longtable}
+}
+
+\subsection{Alimentação}
+Na alimentação do nosso sensor, podem ser utilizadas duas formas de fornecer energia: por meio de uma fonte de 5V DC, ou por meio de uma bateria de 9V conectada ao pino VIN/DC. Caso escolha utilizar a fonte, elas regulam a tensão sem chaveamento de alta frequência, minimizando ruídos na leitura do sensor de temperatura. Caso contrário, as baterias fornecem uma tensão contínua pura, não produzindo qualquer tipo de ruído. São dois ótimos tipos de alimentação do sistema, ficando a critério do cliente, se deseja algo fixo ou algo portátil.
+
+{    
+\small % Define o tamanho da fonte para a tabela
+\begin{longtable}{|m{2.5cm}|m{3.5cm}|m{7cm}|}
+    
+    % Legenda no topo da tabela
+    \caption{Alimentação} \label{tab:Alimentação} \\
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endfirsthead % O que aparece no topo da primeira página
+    
+    \hline
+    \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
+    \endhead % O que aparece no topo das páginas seguintes se a tabela quebrar
+    
+    \hline
+    \endfoot % O que aparece no rodapé de cada página da tabela
+    
+    % --- CONTEÚDO DA LINHA 1 ---
+    Fonte 5V 1A Bivolt \par
+    R\% 16,90 - R\%20,00& 
+    \centering \includegraphics[width=2cm]{imagens/fonte.png} & 
+    1. Tensão de entrada	Bivolt 100~240VAC 47~64Hz \par
+    2. Tensão de saída	5VDC \par
+    3. Corrente de saída máxima	1A
+    4. Conector	P4 - Centro Positivo
+    5. Diâmetro Furo Interno	2.1mm
+    6. Diâmetro Externo	5.5mm\\ \hline
+    
+    % --- CONTEÚDO DA LINHA 2 ---
+    Philips Bateria Alcalina 9V \par
+    R\$25,00 & \centering \includegraphics[width=2cm]{imagens/bateria.png} &\\ \hline
+
+    % --- CONTEÚDO DA LINHA 3 ---
+    Adaptador de Bateria 9v com Plug P4 \par
+    R\$2,50 - & \centering \includegraphics[width=2cm]{imagens/adaptador9v.png} &
+    1. Diâmetro Furo Interno	2.1mm
+    2. Diâmetro Externo	5.5mm
+    3. Plug	P4 Macho\\ \hline
+\end{longtable}
+}
