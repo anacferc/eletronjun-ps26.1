@@ -607,6 +607,9 @@ INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./Seções/diagrama_de_blocos.tex
+INPUT ./Seções/diagrama_de_blocos.tex
+INPUT Seções/diagrama_de_blocos.tex
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png

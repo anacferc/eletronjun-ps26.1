@@ -36,26 +36,3 @@ Neste modo, o sistema realiza leituras periódicas do sensor de forma contínua 
 Independentemente do modo de operação, ao final de cada ciclo de execução, o sistema retorna ao início do loop principal, reiniciando o processo de verificação de comandos e execução das ações correspondentes. Esse comportamento garante a operação contínua e responsiva do sistema.
 
 Dessa forma, o fluxograma representa de maneira clara e estruturada o funcionamento do software, evidenciando a separação entre inicialização, controle de estados, interação com o usuário e execução das funcionalidades principais do sistema.
-
-
-
-
-
-
-\subsection{Fluxo de Dados}
-
-O fluxo de operações do sistema pode ser descrito conforma os passos a seguir:
-
-\begin{enumerate}
-
-    \item O ESP8266 inicializa, conecta-se à rede Wi-Fi e aguarda comandos ou eventos;
-    
-    \item O sensor DHT11 realiza medições periódicas de temperatura e umidade, enviando os dados ao ESP8266;
-    
-    \item O ESP8266 processa os dados recebidos e os encaminha ao banco de dados via requisição HTTP/HTTP, registrando cada leitura;
-
-    \item A interface web consulta o banco de dados e exibe os dados de temperatura e umidade em tempo real para o cliente, além de permitir a alternância entre os modos de operação (normal e economia de energia);
-
-    \item Ao receber um comando de alternância de modo, o ESP8266 atualiza o estado interno e aciona o LED indicador correspondente, refletindo o modo de operação ativo. 
-
-\end{enumerate}
