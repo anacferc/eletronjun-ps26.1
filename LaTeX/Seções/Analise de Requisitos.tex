@@ -1,4 +1,3 @@
-
 A análise de requisitos é o levantamento de todas as propriedades, características e necessidades do sistema para que esse seja capaz de executar, com a qualidade desejada, as funcionalidades previstas. Essa seção serve de base tanto para o cliente, guiando as expectativas quanto ao projeto a partir da definição sólida de quais serão suas especificações, como para os projetistas, que, ao desenvolverem o sistema de acordo com os requisitos levantados, estarão seguros quanto à sua efetividade para o problema.
 
 Os requisitos funcionais, dispostos na seção 2.2, são propriedades do sistema responsáveis por explicitar suas funcionalidades e como estas atendem às solicitações do projeto. A partir da leitura dos requisitos funcionais, tem-se noção do que o sistema deve ser capaz de executar e quais são as necessidades que ele busca suprir.
@@ -37,73 +36,67 @@ nesta etapa.
 
 \subsection{Requisitos Funcionais}
 
-\begin{rfreq}{RF01: Coleta de Dados}
-    Coletar dados de temperatura e umidade do ambiente, utilizando sensores de temperatura e umidade.
+\begin{rfreq}{RF01: Coleta de Dados Ambientais}
+    O sistema deve ser capaz de coletar de forma contínua dados de temperatura e umidade do ambiente, por meio de um sensor dedicado.
     
     Prioridade: Essencial.
 \end{rfreq}
 
 \begin{rfreq}{RF02: Monitoramento em Tempo Real}
-    Exibir os dados de temperatura e umidade em tempo real através da interface web.
+    O sistema deve disponibilizar os dados de temperatura e umidade em tempo real por meio de uma interface web.
     
     Prioridade: Essencial.
 \end{rfreq}
 
-\begin{rfreq}{RF03: Alternância de Modos}
-    Permitir que o usuário alterne entre os modos de operação: desligado, automático e ligado.
+\begin{rfreq}{RF03: Modos de Operação}
+    O sistema deve suportar três modos de operação distintos: Desligado (sensor e sistema desativados), Automático (coleta e exibição contínua de dados de forma autônoma) e Ligado (sistema operando normalmente, aguardando ação do usuário).
     
     Prioridade: Essencial.
 \end{rfreq}
 
 \begin{rfreq}{RF04: Feedback Visual}
-    Controlar o acionamento de LEDs de acordo com o modo de operação selecionado no sistema.
+    O sistema deve acionar os LEDs indicadores de modo ao receber um comando de alternância pela interface web, refletindo imediatamente o estado atual do sistema.
     
     Prioridade: Essencial.
 \end{rfreq}
 
 \begin{rfreq}{RF05: Controle via Web}
-    Receber comandos originados na interface web e refletir as alterações no hardware.
+    O sistema deve permitir que o usuário alterne entre os modos de operação por meio de botões disponíveis na interface web.
     
     Prioridade: Essencial.
 \end{rfreq}
-
-\begin{rfreq}{RF06: Lógica de Modos}
-    Operar em diferentes modos (manual ou automático), apresentando comportamentos distintos para cada um.
-    
-    Prioridade: Essencial.
-\end{rfreq}
-
-\begin{rfreq}{RF07: Histórico de Dados}
+\begin{rfreq}{RF06: Histórico de Dados}
     Registrar o histórico de leituras dos sensores, incluindo a data e a hora de cada medição.
     
-    Prioridade: Essencial.
+    Prioridade: Importante.
 \end{rfreq}
 
-\begin{rfreq}{RF08: Sistema de Alertas}
-    Emitir alertas sempre que os valores coletados ultrapassarem os limites pré-estabelecidos.
+\begin{rfreq}{RF07: Sistema de Alertas}
+    O sistema deve emitir alertas automáticos na interface web quando os valores de temperatura ou umidade ultrapassarem limites pré-estabelecidos pelo usuário.
     
     Prioridade: Desejável.
 \end{rfreq}
 
-\begin{rfreq}{RF09: Notificação por E-mail}
-    Enviar notificações por e-mail quando o sistema detectar condições fora dos parâmetros normais.
-    
-    Prioridade: Desejável.
+\begin{rfreq}{RF08: Notificação por E-mail}
+    O sistema deve enviar uma notificação por e-mail ao usuário quando os valores medidos ultrapassarem os limites pré-estabelecidos, em adição ao alerta exibido na interface web.
+
+    Prioridade: Importante.
 \end{rfreq}
 
-\begin{rfreq}{RF10: Armazenamento de Logs}
-    Salvar logs de funcionamento e eventos do sistema em arquivos para consulta posterior.
-    
+\begin{rfreq}{RF09: Armazenamento de Logs}
+    O sistema deve armazenar localmente os registros de leitura em arquivo .txt, mantendo a persistência dos dados mesmo na ausência de conexão com a rede.
     Prioridade: Desejável.
+    
+    Prioridade: Importante.
 \end{rfreq}
 
-\begin{rfreq}{RF11: Acesso Mobile}
+\begin{rfreq}{RF10: Acesso Mobile}
     Disponibilizar uma interface via aplicativo mobile para monitoramento remoto.
 
-    Prioridade: Desejável.
+    Prioridade: Importante.
 \end{rfreq}
 %%
-%\newpage
+\newpage
 \subsection{Requisitos Não Funcionais}
 
 \begin{rfreq}{RNF01: Desempenho (Tempo Real)}
@@ -146,6 +139,4 @@ nesta etapa.
     O sistema deve ser resiliente e confiável na leitura e processamento dos dados, minimizando falhas de interpretação ou perda de pacotes.
     
     Prioridade: Essencial.
-
-    
 \end{rfreq}

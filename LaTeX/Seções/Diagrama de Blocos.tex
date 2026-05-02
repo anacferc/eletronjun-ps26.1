@@ -1,0 +1,7 @@
+O diagrama de blocos apresentado na Figura 1 ilustra a arquitetura geral do sistema, evidenciando os principais módulos e o fluxo de dados entre eles.\\
+O sistema eletrônico opera com o microcontrolador ESP8266 como núcleo central de processamento. O sensor DHT11 realiza as medições de temperatura e umidade, transmitindo os dados ao ESP8266 via protocolo single-bus. O ESP8266 processa as leituras e as disponibiliza na interface web por meio do módulo Wi-Fi integrado, utilizando o protocolo HTTP/HTTPS, sendo essa conectividade um requisito essencial para o envio dos dados ao banco de dados e à interface do cliente.\\
+Os LEDs indicadores serão acionados diretamente pelos pinos digitais do ESP8266, refletindo o modo de operação ativo. Quando um comando de alternância de modo é recebido via interface web, o firmware atualiza o estado interno e aciona o LED correspondente.\\
+
+colocar uma imagem (figura1)
+
+Descrição da imagem Figura 1 - Diagrama de blocos do sistema de monitoramento ambienal com ESP8266 e DHT11.
