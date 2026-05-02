@@ -23,19 +23,20 @@
 \contentsline {subsubsection}{\numberline {2.3.5}[RF15] \textcolor {black}{[RNF05: Manutenibilidade]}}{7}{subsubsection.2.3.5}%
 \contentsline {subsubsection}{\numberline {2.3.6}[RF16] \textcolor {black}{[RNF06: Usabilidade]}}{7}{subsubsection.2.3.6}%
 \contentsline {subsubsection}{\numberline {2.3.7}[RF17] \textcolor {black}{[RNF07: Confiabilidade]}}{7}{subsubsection.2.3.7}%
-\contentsline {section}{\numberline {3}Diagrama de Blocos}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Fluxo de Dados}{8}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Modelagem do Circuito}{9}{section.4}%
-\contentsline {section}{\numberline {5}Descrição de Hardware}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Arquitetura Geral}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Unidade de Controle}{10}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Conexões com sensores}{11}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Alimentação}{11}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Descrição de Software}{13}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Especificações}{13}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Descricao de alto nível}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Subsistema de alimentação}{14}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}...}{14}{subsubsection.7.1.1}%
-\contentsline {section}{\numberline {8}Descrição de Firmware}{15}{section.8}%
-\contentsline {section}{\numberline {9}Bill of Materials}{16}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Total}{16}{subsection.9.1}%
+\contentsline {section}{\numberline {3}Fluxograma de Software}{8}{section.3}%
+\contentsline {section}{\numberline {4}Descrição do Fluxograma do Software}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fluxo de Dados}{10}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Modelagem do Circuito}{11}{section.5}%
+\contentsline {section}{\numberline {6}Descrição de Hardware}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Arquitetura Geral}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Unidade de Controle}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Conexões com sensores}{13}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Alimentação}{13}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Descrição de Software}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Especificações}{15}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Descricao de alto nível}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Subsistema de alimentação}{16}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}...}{16}{subsubsection.8.1.1}%
+\contentsline {section}{\numberline {9}Descrição de Firmware}{17}{section.9}%
+\contentsline {section}{\numberline {10}Bill of Materials}{18}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Total}{18}{subsection.10.1}%
