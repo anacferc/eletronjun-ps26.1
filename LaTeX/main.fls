@@ -1,8 +1,8 @@
-PWD c:/Users/Dell/eletronjun-ps26.1/LaTeX
+PWD c:/Users/Paulo Menezes/Desktop/UnB/EletronJun/ps 26.1/eletronjun-ps26.1/LaTeX
 INPUT c:/texlive/2026/texmf.cnf
 INPUT c:/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/Dell/eletronjun-ps26.1/LaTeX/main.tex
+INPUT c:/Users/Paulo Menezes/Desktop/UnB/EletronJun/ps 26.1/eletronjun-ps26.1/LaTeX/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -589,6 +589,16 @@ INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
+INPUT ./Seções/Interface_do_Usuario.tex
+INPUT ./Seções/Interface_do_Usuario.tex
+INPUT Seções/Interface_do_Usuario.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT ./Seções/Fluxograma_de_Software.tex
 INPUT ./Seções/Fluxograma_de_Software.tex
 INPUT Seções/Fluxograma_de_Software.tex
@@ -722,3 +732,4 @@ INPUT ./main.out
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
+INPUT c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb

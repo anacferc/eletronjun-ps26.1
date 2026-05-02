@@ -23,21 +23,23 @@
 \contentsline {subsubsection}{\numberline {2.3.5}[RF15] \textcolor {black}{[RNF05: Manutenibilidade]}}{7}{subsubsection.2.3.5}%
 \contentsline {subsubsection}{\numberline {2.3.6}[RF16] \textcolor {black}{[RNF06: Usabilidade]}}{7}{subsubsection.2.3.6}%
 \contentsline {subsubsection}{\numberline {2.3.7}[RF17] \textcolor {black}{[RNF07: Confiabilidade]}}{7}{subsubsection.2.3.7}%
-\contentsline {section}{\numberline {3}Fluxograma de Software}{8}{section.3}%
-\contentsline {section}{\numberline {4}Descrição do Fluxograma do Software}{8}{section.4}%
-\contentsline {section}{\numberline {5}Diagrama de Blocos}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Fluxo de Dados}{10}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Modelagem do Circuito}{11}{section.6}%
-\contentsline {section}{\numberline {7}Descrição de Hardware}{12}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Arquitetura Geral}{12}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Unidade de Controle}{12}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Conexões com sensores}{13}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Alimentação}{13}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Descrição de Software}{15}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Especificações}{15}{subsection.8.1}%
-\contentsline {section}{\numberline {9}Descricao de alto nível}{16}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Subsistema de alimentação}{16}{subsection.9.1}%
-\contentsline {subsubsection}{\numberline {9.1.1}...}{16}{subsubsection.9.1.1}%
-\contentsline {section}{\numberline {10}Descrição de Firmware}{17}{section.10}%
-\contentsline {section}{\numberline {11}Bill of Materials}{18}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Total}{18}{subsection.11.1}%
+\contentsline {section}{\numberline {3}Interface do Usuário}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Protótipo de Baixa Fidelidade}{8}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Fluxograma de Software}{9}{section.4}%
+\contentsline {section}{\numberline {5}Descrição do Fluxograma do Software}{9}{section.5}%
+\contentsline {section}{\numberline {6}Diagrama de Blocos}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Fluxo de Dados}{11}{subsection.6.1}%
+\contentsline {section}{\numberline {7}Modelagem do Circuito}{12}{section.7}%
+\contentsline {section}{\numberline {8}Descrição de Hardware}{13}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Arquitetura Geral}{13}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Unidade de Controle}{13}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Conexões com sensores}{14}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Alimentação}{14}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Descrição de Software}{16}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Especificações}{16}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Descricao de alto nível}{17}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Subsistema de alimentação}{17}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}...}{17}{subsubsection.10.1.1}%
+\contentsline {section}{\numberline {11}Descrição de Firmware}{18}{section.11}%
+\contentsline {section}{\numberline {12}Bill of Materials}{19}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Total}{19}{subsection.12.1}%
