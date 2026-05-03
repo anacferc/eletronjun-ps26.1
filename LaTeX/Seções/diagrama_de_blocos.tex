@@ -1,26 +1,30 @@
 O diagrama de blocos apresentado na Figura 1 ilustra a arquitetura geral do sistema, evidenciando os principais módulos e o fluxo de dados entre eles.
 
-O sistema eletrônico opera com o microcontrolador ESP8266 como núcleo central de processamento. O sensor DHT11 realiza as medições de temperatura e umidade, transmitindo os dados ao ESP8266 via protocolo single-bus. O ESP8266 processa as leituras e as disponibiliza na interface web por meio do módulo Wi-Fi integrado, utilizando o protocolo HTTP/HTTPS, sendo essa conectividade um requisito essencial para o envio dos dados ao banco de dados e à interface do cliente.
+O sistema eletrônico opera com o microcontrolador ESP32 como núcleo central de processamento. O sensor DHT11 realiza as medições de temperatura e umidade, transmitindo os dados ao ESP32 via protocolo single-bus. O ESP32 processa as leituras e as disponibiliza na interface web por meio do módulo Wi-Fi integrado, utilizando o protocolo HTTP/HTTPS, sendo essa conectividade um requisito essencial para o envio dos dados ao banco de dados e à interface do cliente.
 
-Os LEDs indicadores serão acionados diretamente pelos pinos digitais do ESP8266, refletindo o modo de operação ativo. Quando um comando de alternância de modo é recebido via interface web, o firmware atualiza o estado interno e aciona o LED correspondente.\\
+Os LEDs indicadores serão acionados diretamente pelos pinos digitais do ESP32, refletindo o modo de operação ativo. Quando um comando de alternância de modo é recebido via interface web, o firmware atualiza o estado interno e aciona o LED correspondente.\\
 
+\begin{figure}[H]
+   \centering
+   \includegraphics[width=1\textwidth]{imagens/diagramaemblocos.png} 
+    \caption{Diagrama de blocos do sistema de monitoramento ambienal com ESP32 e DHT11.}
+    \label{fig:fluxograma_software}
+\end{figure}
 
-
-Descrição da imagem Figura 1 - Diagrama de blocos do sistema de monitoramento ambienal com ESP8266 e DHT11.
 \subsection{Fluxo de Dados}
 
-O fluxo de operações do sistema pode ser descrito conforma os passos a seguir:
+O fluxo de operações do sistema pode ser descrito conforme os passos a seguir:
 
 \begin{enumerate}
 
-    \item O ESP8266 inicializa, conecta-se à rede Wi-Fi e aguarda comandos ou eventos;
+    \item O ESP32 inicializa, conecta-se à rede Wi-Fi e aguarda comandos ou eventos;
     
-    \item O sensor DHT11 realiza medições periódicas de temperatura e umidade, enviando os dados ao ESP8266;
+    \item O sensor DHT11 realiza medições periódicas de temperatura e umidade, enviando os dados ao ESP32;
     
-    \item O ESP8266 processa os dados recebidos e os encaminha ao banco de dados via requisição HTTP/HTTP, registrando cada leitura;
+    \item O ESP32 processa os dados recebidos e os encaminha ao banco de dados via requisição HTTP/HTTPS, registrando cada leitura;
 
     \item A interface web consulta o banco de dados e exibe os dados de temperatura e umidade em tempo real para o cliente, além de permitir a alternância entre os modos de operação (normal e economia de energia);
 
-    \item Ao receber um comando de alternância de modo, o ESP8266 atualiza o estado interno e aciona o LED indicador correspondente, refletindo o modo de operação ativo. 
+    \item Ao receber um comando de alternância de modo, o ESP32 atualiza o estado interno e aciona o LED indicador correspondente, refletindo o modo de operação ativo. 
 
 \end{enumerate}

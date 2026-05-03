@@ -1,7 +1,7 @@
-\subsection{Especificações}
-O software do sistema foi dividido dessa maneira: \par
+ A Interface do Usuário (UI) é responsável pela interação direta entre o operador e o sistema. Implementada como uma aplicação web responsiva, ela apresenta em tempo real os valores de temperatura e umidade coletados, disponibiliza os controles para alternância entre os modos de operação (Ligado, Desligado e Automático) e exibe alertas visuais quando os limites pré-estabelecidos são ultrapassados. A interface comunica-se com o firmware do ESP32 por meio de requisições HTTP, enviando comandos e recebendo respostas no formato JSON.
 
-*Interface do Usuário (UI):* interação do usuário com o sistema, permite ser ligado, desligado e apresenta as informações climáticas sobre o local em que se encontra. \par
-*Controle de Dados:* monitora a passagem dos dados e os direciona para seus respectivos lugares. \par
-*Comunicação:* monitora a troca de informações entre hardware e software, e a comunicação de softwares externos como APIs. \par
-*Armazenamento de Dados:* gerencia e perpetua o armaazenamento de dados provenientes do local em que se encontra o sensor. \par
+O Controle de Dados é a camada responsável por receber os dados brutos provenientes do sensor DHT11, validá-los, aplicar os procedimentos de calibração necessários e encaminhá-los às demais camadas do sistema. Essa camada implementa também a lógica de detecção de anomalias: quando um valor lido excede os limiares pré-configurados pelo usuário, o módulo aciona simultaneamente a camada de comunicação para enviar notificações por e-mail e a interface web para a exibição dos alertas e da alternância de modos.
+
+A camada de Comunicação gerencia toda a troca de informações entre o hardware e os serviços externos. O firmware do ESP32 utiliza o protocolo HTTP/HTTPS para enviar leituras ao banco de dados remoto e para receber comandos originados na interface web.
+
+Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o registro remoto em banco de dados relacional, acessado pela interface web para a exibição do histórico de leituras (requisito \textbf{RF06}), e o armazenamento local em arquivo \texttt{.txt} gravado na memória flash do ESP32, que garante a persistência dos dados mesmo na ausência de conectividade com a rede (requisito \textbf{RF09}).

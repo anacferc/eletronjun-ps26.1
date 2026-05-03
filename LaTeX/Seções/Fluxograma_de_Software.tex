@@ -5,7 +5,7 @@
     \label{fig:fluxograma_software}
 \end{figure}
 
-\section{Descrição do Fluxograma do Software}
+\subsection{Descrição do Fluxograma do Software}
 
 O fluxograma desenvolvido representa a lógica de funcionamento do software embarcado responsável pelo monitoramento de temperatura e umidade, bem como a interação com a interface web e o controle dos LEDs indicadores de estado.
 
@@ -17,19 +17,15 @@ A cada iteração do loop, o sistema verifica se há novos comandos provenientes
 
 Após a possível atualização do estado, os LEDs indicadores são atualizados para refletir o modo de operação vigente, fornecendo uma indicação visual clara do estado do sistema.
 
-
-
 \begin{itemize}
 \item \textbf{Modo Desligado:}
 Neste estado, o sistema permanece inativo, não realizando leituras do sensor nem enviando dados para a interface web. O sistema apenas mantém o loop ativo, aguardando novos comandos do usuário.
 
-```
 \item \textbf{Modo Manual:}  
 No modo manual, o sistema aguarda uma solicitação explícita do usuário para realizar a leitura dos dados. Caso o usuário solicite a leitura por meio da interface web, o sistema realiza a coleta dos dados do sensor e os envia para exibição. Caso contrário, permanece em espera, sem executar novas leituras.
 
 \item \textbf{Modo Automático:}  
 Neste modo, o sistema realiza leituras periódicas do sensor de forma contínua e automática. Após cada leitura, os dados de temperatura e umidade são enviados à interface web. Um intervalo de tempo é aplicado entre as leituras para evitar sobrecarga do sistema e garantir estabilidade na aquisição dos dados.
-```
 
 \end{itemize}
 

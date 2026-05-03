@@ -7,43 +7,42 @@ O sistema é composto por sensores que captam a temperatura e umidade, que são 
 
 \subsection{Unidade de Controle}
 
-A unidade de controle é a parte responsável por executar os requisitos propostos e controlar a execução do sistema. Para isso, será utilizado um microcontrolador ESP8266, por contra da integração com o Wi-Fi, sendo de extrema importância para conexão com o sistema. Também está presente o sensor de umidade e temperatura DHT11, que será responsável pela captação dos parâmetros necessários.
+A unidade de controle é a parte responsável por executar os requisitos propostos e controlar a execução do sistema. Para isso, será utilizado um microcontrolador ESP32, por contra da integração com o Wi-Fi, sendo de extrema importância para conexão com o sistema. Também está presente o sensor de umidade e temperatura DHT11, que será responsável pela captação dos parâmetros necessários.
 
 {
-\small % Define o tamanho da fonte para a tabela
+\small
 \begin{longtable}{|m{2.5cm}|m{3.5cm}|m{7cm}|}
     
-    % Legenda no topo da tabela
     \caption{Microcontroladores} \label{tab:Microcontroladores} \\
     
     \hline
     \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
-    \endfirsthead % O que aparece no topo da primeira página
+    \endfirsthead
     
     \hline
     \textbf{Modelo/Preço} & \textbf{Imagem} & \textbf{Especificação} \\ \hline
-    \endhead % O que aparece no topo das páginas seguintes se a tabela quebrar
+    \endhead
     
     \hline
-    \endfoot % O que aparece no rodapé de cada página da tabela
+    \endfoot
     
     % --- CONTEÚDO DA LINHA 1 ---
-    Microcontrolador Wi-Fi ESP8266 \par (NodeMCU) \par
-    R\$ 22,77 -- R\$ 39,40 & 
-    \centering \includegraphics[width=2cm]{imagens/microcontrolador.png} & 
-    1. Memória RAM: 20 kb \par 
-    2. Tensão de operação: 5V a 9V \par 
+    Microcontrolador Wi-Fi ESP32 \par (NodeMCU) \par
+    R\$ 25,00 -- R\$ 45,00 & 
+    \centering \includegraphics[width=3cm]{imagens/microcontrolador.png} & 
+    1. Memória RAM: 520 KB \par 
+    2. Tensão de operação: 3,3V (alimentação via USB 5V) \par 
     3. Programação/Alimentação: Micro-USB \par 
-    4. Chip WiFi ESP8266 12E \par 
-    5. Corrente média: 70 mA \par 
-    6. 10 portas GPIOs \par 
-    7. 01 porta ADC 10 bits \par 
-    8. 3 Modos de operação \par 
-    9. Suporta 5 conexões TCP/IP \par 
+    4. Chip ESP32 Dual-Core 240 MHz \par 
+    5. Corrente média: 240 mA \par 
+    6. 30+ portas GPIOs \par 
+    7. 2 portas ADC de 12 bits \par 
+    8. Wi-Fi 802.11 b/g/n + Bluetooth 4.2 \par 
+    9. Suporta múltiplas conexões TCP/IP \par 
     10. Pinos GND, VIN e 3.3V \par 
-    11. Temp: -40°C a +125°C \par 
-    12. IDE Arduino, Python \par 
-    13. Dimensões: 60 x 32 x 15 mm \\ \hline
+    11. Temp: -40°C a +85°C \par 
+    12. IDE Arduino, MicroPython \par 
+    13. Dimensões: 51 x 28 x 13 mm \\ \hline
     
     % --- CONTEÚDO DA LINHA 2 ---
     Sensor de Umidade e Temperatura DHT11 \par
@@ -79,21 +78,26 @@ As conexões com os sensores são responsáveis pela execução e funcionamento 
     \hline
     \endfoot % O que aparece no rodapé de cada página da tabela
     
-    % --- CONTEÚDO DA LINHA 1 ---
-    Placa Fenolite Perfurada 7x5cm \par
-    R\$ 2,38 -- R\$ 4,90 & 
-    \centering \includegraphics[width=2cm]{imagens/placafenolite.png} & 
-    1. Dimensões Placa	5cm x 7cm \par
-    2. Dimensões Furos	1 mm \par
-    3. Dimensões Ilha	2,54 mm\\ \hline
-    
-    % --- CONTEÚDO DA LINHA 2 ---
-    Jumpers - Macho/Femea \par
-    R\% 4,66 --  R\$ 19,98& \centering \includegraphics[width=2cm]{imagens/jumpersmachofemea.png} &\\ \hline
-    
-    % --- CONTEÚDO DA LINHA 3 ---
-    Resistor 10K 1/4W \par 
-    R\$0,22 -- R\$ 0,86 & \centering \includegraphics[width=2cm]{imagens/resistor.png} &\\ \hline
+% --- CONTEÚDO DA LINHA 1 ---
+Placa Fenolite Perfurada 7x5cm \par R\$ 2,38 -- R\$ 4,90 & 
+\centering \includegraphics[width=2cm]{imagens/placafenolite.png} & 
+1. Dimensões Placa: 5cm x 7cm \par 
+2. Dimensões Furos: 1 mm \par 
+3. Dimensões Ilha: 2,54 mm \\ \hline
+
+% --- CONTEÚDO DA LINHA 2 ---
+Jumpers - Macho/Femea \par R\$ 4,66 -- R\$ 19,98 & 
+\centering \includegraphics[width=2cm]{imagens/jumpersmachofemea.png} & 
+1. Quantidade: Kit 40 unidades \par
+2. Comprimento: 10 cm \par
+3. Tipo: Macho-Fêmea \\ \hline
+
+% --- CONTEÚDO DA LINHA 3 ---
+Resistor 10K 1/4W \par R\$ 0,22 -- R\$ 0,86 & 
+\centering \includegraphics[width=2cm]{imagens/resistor.png} & 
+1. Resistência: 10k Ohms \par
+2. Potência: 1/4 W (0,25W) \par
+3. Função: Pull-up para sinal DHT11 \\ \hline
 
 \end{longtable}
 }
@@ -119,26 +123,33 @@ Na alimentação do nosso sensor, podem ser utilizadas duas formas de fornecer e
     \hline
     \endfoot % O que aparece no rodapé de cada página da tabela
     
-    % --- CONTEÚDO DA LINHA 1 ---
+    % --- CONTEÚDO DA LINHA 1: FONTE ---
     Fonte 5V 1A Bivolt \par
-    R\% 16,90 - R\%20,00& 
+    R\$ 16,90 -- R\$ 20,00 & 
     \centering \includegraphics[width=2cm]{imagens/fonte.png} & 
-    1. Tensão de entrada	Bivolt 100~240VAC 47~64Hz \par
-    2. Tensão de saída	5VDC \par
-    3. Corrente de saída máxima	1A
-    4. Conector	P4 - Centro Positivo
-    5. Diâmetro Furo Interno	2.1mm
-    6. Diâmetro Externo	5.5mm\\ \hline
+    1. Entrada: Bivolt 100~240VAC \par
+    2. Saída: 5VDC \par
+    3. Corrente máxima: 1A \par
+    4. Conector: P4 Centro Positivo \par
+    5. Diâmetro Interno: 2,1 mm \par
+    6. Diâmetro Externo: 5,5 mm \\ \hline
     
-    % --- CONTEÚDO DA LINHA 2 ---
+    % --- CONTEÚDO DA LINHA 2: BATERIA ---
     Philips Bateria Alcalina 9V \par
-    R\$25,00 & \centering \includegraphics[width=2cm]{imagens/bateria.png} &\\ \hline
+    R\$ 25,00 & 
+    \centering \includegraphics[width=1.5cm]{imagens/bateria.png} &
+    1. Tensão Nominal: 9V \par
+    2. Tecnologia: Alcalina \par
+    3. Aplicação: Alimentação portátil \par
+    4. Formato: Prismático (6LR61) \\ \hline
 
-    % --- CONTEÚDO DA LINHA 3 ---
-    Adaptador de Bateria 9v com Plug P4 \par
-    R\$2,50 - & \centering \includegraphics[width=2cm]{imagens/adaptador9v.png} &
-    1. Diâmetro Furo Interno	2.1mm
-    2. Diâmetro Externo	5.5mm
-    3. Plug	P4 Macho\\ \hline
+    % --- CONTEÚDO DA LINHA 3: ADAPTADOR ---
+    Adaptador de Bateria 9V com Plug P4 \par
+    R\$ 2,50 & 
+    \centering \includegraphics[width=2cm]{imagens/adaptador9v.png} &
+    1. Conector A: Snap para bateria 9V \par
+    2. Conector B: Plug P4 Macho \par
+    3. Diâmetro Interno: 2,1 mm \par
+    4. Diâmetro Externo: 5,5 mm \\ \hline
 \end{longtable}
 }

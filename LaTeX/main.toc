@@ -5,41 +5,35 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Identificação dos Requisitos}{4}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Propriedades dos requisitos}{4}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}Requisitos Funcionais}{5}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}[RF01] \textcolor {black}{[RF01: Coleta de Dados Ambientais]}}{5}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}[RF02] \textcolor {black}{[RF02: Monitoramento em Tempo Real]}}{5}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}[RF03] \textcolor {black}{[RF03: Modos de Operação]}}{5}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}[RF04] \textcolor {black}{[RF04: Feedback Visual]}}{5}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}[RF05] \textcolor {black}{[RF05: Controle via Web]}}{5}{subsubsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.6}[RF06] \textcolor {black}{[RF06: Histórico de Dados]}}{5}{subsubsection.2.2.6}%
-\contentsline {subsubsection}{\numberline {2.2.7}[RF07] \textcolor {black}{[RF07: Sistema de Alertas]}}{5}{subsubsection.2.2.7}%
-\contentsline {subsubsection}{\numberline {2.2.8}[RF08] \textcolor {black}{[RF08: Notificação por E-mail]}}{6}{subsubsection.2.2.8}%
-\contentsline {subsubsection}{\numberline {2.2.9}[RF09] \textcolor {black}{[RF09: Armazenamento de Logs]}}{6}{subsubsection.2.2.9}%
-\contentsline {subsubsection}{\numberline {2.2.10}[RF10] \textcolor {black}{[RF10: Acesso Mobile]}}{6}{subsubsection.2.2.10}%
+\contentsline {subsubsection}{\numberline {2.2.1}[RF01] \textcolor {black}{[Coleta de Dados Ambientais]}}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}[RF02] \textcolor {black}{[Monitoramento em Tempo Real]}}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}[RF03] \textcolor {black}{[Modos de Operação]}}{5}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}[RF04] \textcolor {black}{[Feedback Visual]}}{5}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}[RF05] \textcolor {black}{[Controle via Web]}}{5}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}[RF06] \textcolor {black}{[Histórico de Dados]}}{5}{subsubsection.2.2.6}%
+\contentsline {subsubsection}{\numberline {2.2.7}[RF07] \textcolor {black}{[Sistema de Alertas]}}{5}{subsubsection.2.2.7}%
+\contentsline {subsubsection}{\numberline {2.2.8}[RF08] \textcolor {black}{[Notificação por E-mail]}}{6}{subsubsection.2.2.8}%
+\contentsline {subsubsection}{\numberline {2.2.9}[RF09] \textcolor {black}{[Armazenamento de Logs]}}{6}{subsubsection.2.2.9}%
+\contentsline {subsubsection}{\numberline {2.2.10}[RF10] \textcolor {black}{[Acesso Mobile]}}{6}{subsubsection.2.2.10}%
 \contentsline {subsection}{\numberline {2.3}Requisitos Não Funcionais}{7}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}[RF11] \textcolor {black}{[RNF01: Desempenho (Tempo Real)]}}{7}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}[RF12] \textcolor {black}{[RNF02: Conectividade]}}{7}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}[RF13] \textcolor {black}{[RNF03: Precisão e Faixa de Operação]}}{7}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}[RF14] \textcolor {black}{[RNF04: Eficiência Energética]}}{7}{subsubsection.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.5}[RF15] \textcolor {black}{[RNF05: Manutenibilidade]}}{7}{subsubsection.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.6}[RF16] \textcolor {black}{[RNF06: Usabilidade]}}{7}{subsubsection.2.3.6}%
-\contentsline {subsubsection}{\numberline {2.3.7}[RF17] \textcolor {black}{[RNF07: Confiabilidade]}}{7}{subsubsection.2.3.7}%
+\contentsline {subsubsection}{\numberline {2.3.1}[NF01] \textcolor {black}{[Desempenho (Tempo Real)]}}{7}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}[NF02] \textcolor {black}{[Conectividade]}}{7}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}[NF03] \textcolor {black}{[Precisão e Faixa de Operação]}}{7}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}[NF04] \textcolor {black}{[Eficiência Energética]}}{7}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}[NF05] \textcolor {black}{[Manutenibilidade]}}{7}{subsubsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.6}[NF06] \textcolor {black}{[Usabilidade]}}{7}{subsubsection.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.7}[NF07] \textcolor {black}{[Confiabilidade]}}{7}{subsubsection.2.3.7}%
 \contentsline {section}{\numberline {3}Interface do Usuário}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Protótipo de Baixa Fidelidade}{8}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Fluxograma de Software}{9}{section.4}%
-\contentsline {section}{\numberline {5}Descrição do Fluxograma do Software}{9}{section.5}%
-\contentsline {section}{\numberline {6}Diagrama de Blocos}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Fluxo de Dados}{11}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Modelagem do Circuito}{12}{section.7}%
-\contentsline {section}{\numberline {8}Descrição de Hardware}{13}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Arquitetura Geral}{13}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Unidade de Controle}{13}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Conexões com sensores}{14}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Alimentação}{14}{subsection.8.4}%
-\contentsline {section}{\numberline {9}Descrição de Software}{16}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Especificações}{16}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Descricao de alto nível}{17}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Subsistema de alimentação}{17}{subsection.10.1}%
-\contentsline {subsubsection}{\numberline {10.1.1}...}{17}{subsubsection.10.1.1}%
-\contentsline {section}{\numberline {11}Descrição de Firmware}{18}{section.11}%
-\contentsline {section}{\numberline {12}Bill of Materials}{19}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Total}{19}{subsection.12.1}%
+\contentsline {subsection}{\numberline {4.1}Descrição do Fluxograma do Software}{9}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Diagrama de Blocos}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Fluxo de Dados}{11}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Descrição de Hardware}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Arquitetura Geral}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Unidade de Controle}{13}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Conexões com sensores}{14}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Alimentação}{14}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Descrição de Software}{16}{section.7}%
+\contentsline {section}{\numberline {8}Bill of Materials}{17}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Total}{17}{subsection.8.1}%

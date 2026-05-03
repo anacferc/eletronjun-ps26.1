@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.30)  2 MAY 2026 20:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.24)  2 MAY 2026 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Paulo Menezes/Desktop/UnB/EletronJun/ps 26.1/eletronjun-ps26.1/LaTeX/main.tex"
-(c:/Users/Paulo Menezes/Desktop/UnB/EletronJun/ps 26.1/eletronjun-ps26.1/LaTeX/main.tex
+**"c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex"
+(c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -295,7 +295,7 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@dima=\skip59
 \bigstrutjot=\dimen186
 ) (c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
  (c:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (c:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -317,7 +317,7 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Hy@linkcounter=\count329
 \Hy@pagecounter=\count330
  (c:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (c:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -325,23 +325,23 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count331
  (c:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4199.
-Package hyperref Info: Link nesting OFF on input line 4204.
-Package hyperref Info: Hyper index ON on input line 4207.
-Package hyperref Info: Plain pages OFF on input line 4214.
-Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4466.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count332
  (c:/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4805.
+LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen188
  (c:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -351,20 +351,20 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count333
 \Field@Width=\dimen189
 \Fld@charsize=\dimen190
-Package hyperref Info: Hyper figures OFF on input line 6091.
-Package hyperref Info: Link nesting OFF on input line 6096.
-Package hyperref Info: Hyper index ON on input line 6099.
-Package hyperref Info: backreferencing OFF on input line 6106.
-Package hyperref Info: Link coloring OFF on input line 6111.
-Package hyperref Info: Link coloring with OCG OFF on input line 6116.
-Package hyperref Info: PDF/A mode OFF on input line 6121.
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count334
 \c@Item=\count335
 \c@Hfootnote=\count336
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (c:/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count337
 \c@bookmark@seq@number=\count338
  (c:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
@@ -968,6 +968,9 @@ Package babel Info: 'brazilian' activates 'portuges' shorthands.
 
 LaTeX Warning: Label `fig:fluxograma_software' multiply defined.
 
+
+LaTeX Warning: Label `fig:fluxograma_software' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1065,23 +1068,23 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 10.
 (c:/texlive/2026/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 ) (./capa.tex
-<img_arquivo/Brjr.png, id=183, 442.65375pt x 245.91875pt>
+<img_arquivo/Brjr.png, id=159, 442.65375pt x 245.91875pt>
 File: img_arquivo/Brjr.png Graphic file (type png)
 <use img_arquivo/Brjr.png>
 Package pdftex.def Info: img_arquivo/Brjr.png  used on input line 21.
 (pdftex.def)             Requested size: 137.42426pt x 76.34659pt.
-<img_arquivo/UnB.pdf, id=184, 52.195pt x 47.17625pt>
+<img_arquivo/UnB.pdf, id=160, 52.195pt x 47.17625pt>
 File: img_arquivo/UnB.pdf Graphic file (type pdf)
 <use img_arquivo/UnB.pdf>
 Package pdftex.def Info: img_arquivo/UnB.pdf  used on input line 25.
 (pdftex.def)             Requested size: 71.69801pt x 64.81244pt.
-<img_arquivo/Concentro.png, id=185, 284.06125pt x 144.54pt>
+<img_arquivo/Concentro.png, id=161, 284.06125pt x 144.54pt>
 File: img_arquivo/Concentro.png Graphic file (type png)
 <use img_arquivo/Concentro.png>
 Package pdftex.def Info: img_arquivo/Concentro.png  used on input line 29.
 (pdftex.def)             Requested size: 137.42426pt x 69.92757pt.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd) (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
-<img_arquivo/capaEJ.png, id=187, 597.73312pt x 845.40843pt>
+<img_arquivo/capaEJ.png, id=163, 597.73312pt x 845.40843pt>
 File: img_arquivo/capaEJ.png Graphic file (type png)
 <use img_arquivo/capaEJ.png>
 Package pdftex.def Info: img_arquivo/capaEJ.png  used on input line 48.
@@ -1089,10 +1092,10 @@ Package pdftex.def Info: img_arquivo/capaEJ.png  used on input line 48.
  [1
 
 {c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc} <./img_arquivo/capaEJ.png> <./img_arquivo/Brjr.png> <./img_arquivo/UnB.pdf> <./img_arquivo/Concentro.png>]) (./main.toc
-<img_arquivo/fundo_default.png, id=235, 597.73312pt x 845.40843pt>
+<img_arquivo/fundo_default.png, id=212, 597.73312pt x 845.40843pt>
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 34.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 35.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
  [1{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./img_arquivo/fundo_default.png>])
 \tf@toc=\write6
@@ -1128,6 +1131,11 @@ File: img_arquivo/fundo_default.png Graphic file (type png)
 Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 23.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
  [7] (./Seções/Interface_do_Usuario.tex
+<imagens/Interface_baixa_fidelidade.png, id=267, 792.9625pt x 407.5225pt>
+File: imagens/Interface_baixa_fidelidade.png Graphic file (type png)
+<use imagens/Interface_baixa_fidelidade.png>
+Package pdftex.def Info: imagens/Interface_baixa_fidelidade.png  used on input line 3.
+(pdftex.def)             Requested size: 375.57782pt x 193.02176pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
 )
@@ -1135,165 +1143,160 @@ File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
 Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 27.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
- [8] (./Seções/Fluxograma_de_Software.tex
-<imagens/fluxograma2.png, id=304, 562.1pt x 934.49126pt>
+ [8 <./imagens/Interface_baixa_fidelidade.png>] (./Seções/Fluxograma_de_Software.tex
+<imagens/fluxograma2.png, id=275, 562.1pt x 934.49126pt>
 File: imagens/fluxograma2.png Graphic file (type png)
 <use imagens/fluxograma2.png>
 Package pdftex.def Info: imagens/fluxograma2.png  used on input line 3.
 (pdftex.def)             Requested size: 281.68515pt x 468.29967pt.
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 12.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 13.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
  [9 <./imagens/fluxograma2.png>])
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 32.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 31.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
  [10{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./Seções/diagrama_de_blocos.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-)
+<imagens/diagramaemblocos.png, id=288, 1678.27pt x 944.52875pt>
+File: imagens/diagramaemblocos.png Graphic file (type png)
+<use imagens/diagramaemblocos.png>
+Package pdftex.def Info: imagens/diagramaemblocos.png  used on input line 9.
+(pdftex.def)             Requested size: 469.47049pt x 264.20682pt.
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 36.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 24.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
- [11] (./Seções/Modelagem de Circuito.tex)
+[11 <./imagens/diagramaemblocos.png (PNG copy)>])
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 41.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 35.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
  [12] (./Seções/Descricao de Hardware.tex
-Overfull \hbox (3.32733pt too wide) in paragraph at lines 31--31
+Overfull \hbox (3.32733pt too wide) in paragraph at lines 30--30
 []|\T1/phv/m/n/10 Microcontrolador
  []
 
-<imagens/microcontrolador.png, id=330, 232.61906pt x 152.06813pt>
+<imagens/microcontrolador.png, id=304, 979.40906pt x 744.53156pt>
 File: imagens/microcontrolador.png Graphic file (type png)
 <use imagens/microcontrolador.png>
-Package pdftex.def Info: imagens/microcontrolador.png  used on input line 33.
-(pdftex.def)             Requested size: 56.9055pt x 37.20016pt.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 44.
+Package pdftex.def Info: imagens/microcontrolador.png  used on input line 32.
+(pdftex.def)             Requested size: 85.35826pt x 64.88051pt.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 43.
 (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 []\T1/phv/m/n/10 R$6,99 --
  []
 
-<imagens/sensordht11.png, id=331, 183.68625pt x 192.72pt>
+<imagens/sensordht11.png, id=305, 183.68625pt x 192.72pt>
 File: imagens/sensordht11.png Graphic file (type png)
 <use imagens/sensordht11.png>
-Package pdftex.def Info: imagens/sensordht11.png  used on input line 50.
+Package pdftex.def Info: imagens/sensordht11.png  used on input line 49.
 (pdftex.def)             Requested size: 56.9055pt x 59.70435pt.
 
 ignored: Infinite glue shrinkage found in box being split
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 57.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 56.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
 [13 <./imagens/microcontrolador.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []|\T1/phv/m/n/10 Placa Fe-no-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 \T1/phv/m/n/10 lite Per-fu-rada
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 84--84
+Underfull \hbox (badness 1472) in paragraph at lines 82--82
 []\T1/phv/m/n/10 R$ 2,38 -- R$
  []
 
-<imagens/placafenolite.png, id=338, 316.18124pt x 269.50688pt>
+<imagens/placafenolite.png, id=312, 316.18124pt x 269.50688pt>
 File: imagens/placafenolite.png Graphic file (type png)
 <use imagens/placafenolite.png>
-Package pdftex.def Info: imagens/placafenolite.png  used on input line 85.
+Package pdftex.def Info: imagens/placafenolite.png  used on input line 83.
 (pdftex.def)             Requested size: 56.9055pt x 48.50502pt.
-<imagens/jumpersmachofemea.png, id=339, 295.85532pt x 249.18094pt>
+
+Underfull \hbox (badness 1472) in paragraph at lines 89--89
+[]\T1/phv/m/n/10 R$ 4,66 -- R$
+ []
+
+<imagens/jumpersmachofemea.png, id=313, 295.85532pt x 249.18094pt>
 File: imagens/jumpersmachofemea.png Graphic file (type png)
 <use imagens/jumpersmachofemea.png>
-Package pdftex.def Info: imagens/jumpersmachofemea.png  used on input line 92.
+Package pdftex.def Info: imagens/jumpersmachofemea.png  used on input line 90.
 (pdftex.def)             Requested size: 56.9055pt x 47.92659pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\T1/phv/m/n/10 Resistor 10K
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]\T1/phv/m/n/10 R$0,22 -- R$
+Underfull \hbox (badness 1472) in paragraph at lines 96--96
+[]\T1/phv/m/n/10 R$ 0,22 -- R$
  []
 
-<imagens/resistor.png, id=340, 268.75406pt x 240.9pt>
+<imagens/resistor.png, id=314, 268.75406pt x 240.9pt>
 File: imagens/resistor.png Graphic file (type png)
 <use imagens/resistor.png>
-Package pdftex.def Info: imagens/resistor.png  used on input line 96.
+Package pdftex.def Info: imagens/resistor.png  used on input line 97.
 (pdftex.def)             Requested size: 56.9055pt x 51.00586pt.
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 103.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 107.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
 [14 <./imagens/sensordht11.png> <./imagens/placafenolite.png> <./imagens/jumpersmachofemea.png> <./imagens/resistor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
-[]\T1/phv/m/n/10 R% 16,90 -
- []
-
-<imagens/fonte.png, id=350, 274.77657pt x 290.58563pt>
+<imagens/fonte.png, id=324, 274.77657pt x 290.58563pt>
 File: imagens/fonte.png Graphic file (type png)
 <use imagens/fonte.png>
-Package pdftex.def Info: imagens/fonte.png  used on input line 125.
+Package pdftex.def Info: imagens/fonte.png  used on input line 129.
 (pdftex.def)             Requested size: 56.9055pt x 60.17789pt.
 
-Underfull \hbox (badness 7722) in paragraph at lines 134--134
+Underfull \hbox (badness 7722) in paragraph at lines 138--138
 []|\T1/phv/m/n/10 Philips Ba-te-ria
  []
 
-<imagens/bateria.png, id=351, 190.46156pt x 366.61969pt>
+<imagens/bateria.png, id=325, 190.46156pt x 366.61969pt>
 File: imagens/bateria.png Graphic file (type png)
 <use imagens/bateria.png>
-Package pdftex.def Info: imagens/bateria.png  used on input line 135.
-(pdftex.def)             Requested size: 56.9055pt x 109.53362pt.
+Package pdftex.def Info: imagens/bateria.png  used on input line 140.
+(pdftex.def)             Requested size: 42.67912pt x 82.1502pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []|\T1/phv/m/n/10 Adaptador de
  []
 
-<imagens/adaptador9v.png, id=352, 264.23718pt x 237.13594pt>
+<imagens/adaptador9v.png, id=326, 264.23718pt x 237.13594pt>
 File: imagens/adaptador9v.png Graphic file (type png)
 <use imagens/adaptador9v.png>
-Package pdftex.def Info: imagens/adaptador9v.png  used on input line 139.
+Package pdftex.def Info: imagens/adaptador9v.png  used on input line 149.
 (pdftex.def)             Requested size: 56.9055pt x 51.06645pt.
 )
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 45.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 43.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
  [15 <./imagens/fonte.png> <./imagens/bateria.png> <./imagens/adaptador9v.png>] (./Seções/Descricao_de_Software.tex)
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 49.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 47.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
- [16] (./Seções/Descricao de Alto nivel.tex)
+ [16] (./Seções/BOM.tex)
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 53.
+Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 59.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
- [17] (./Seções/Descricao de Firmware.tex)
-File: img_arquivo/fundo_default.png Graphic file (type png)
-<use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 57.
-(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
- [18] (./Seções/BOM.tex)
-File: img_arquivo/fundo_default.png Graphic file (type png)
-<use img_arquivo/fundo_default.png>
-Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 61.
-(pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
- [19] 
+ [17] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./main.aux)
  ***********
@@ -1305,21 +1308,21 @@ L3 programming layer <2026-03-20>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 333A720B773D3412CBA5BAEDFB85355E;8639.
+(rerunfilecheck)             Checksum: 3886FE2D93F282145BE628550D82F3EA;7149.
  ) 
 Here is how much of TeX's memory you used:
- 42189 strings out of 467349
- 937221 string characters out of 5419862
- 1565883 words of memory out of 5000000
- 70372 multiletter control sequences out of 15000+600000
- 674540 words of font info for 91 fonts, out of 8000000 for 9000
+ 42144 strings out of 467349
+ 935344 string characters out of 5419862
+ 1569014 words of memory out of 5000000
+ 70340 multiletter control sequences out of 15000+600000
+ 675982 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,12n,97p,1150b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (20 pages, 1043154 bytes).
+ 89i,12n,97p,1136b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (18 pages, 3316147 bytes).
 PDF statistics:
- 425 PDF objects out of 1000 (max. 8388607)
- 363 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
- 435 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 397 words of extra memory for PDF output out of 10000 (max. 10000000)
 
