@@ -1,8 +1,8 @@
-PWD c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX
+PWD c:/Users/Cláudio/Desktop/latex/eletronjun-ps26.1/LaTeX
 INPUT c:/texlive/2026/texmf.cnf
 INPUT c:/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/joaop/Desktop/UnB/2º Semestre/eletronjun-ps26.1/LaTeX/main.tex
+INPUT c:/Users/Cláudio/Desktop/latex/eletronjun-ps26.1/LaTeX/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -604,6 +604,15 @@ INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
+INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
+INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
+INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
 INPUT ./Seções/Fluxograma_de_Software.tex
 INPUT ./Seções/Fluxograma_de_Software.tex
 INPUT Seções/Fluxograma_de_Software.tex
@@ -649,9 +658,6 @@ INPUT ./imagens/microcontrolador.png
 INPUT ./imagens/microcontrolador.png
 INPUT ./imagens/microcontrolador.png
 INPUT ./imagens/microcontrolador.png
-INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
-INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
-INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
 INPUT ./imagens/sensordht11.png
 INPUT ./imagens/sensordht11.png
