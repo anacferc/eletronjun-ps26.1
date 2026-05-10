@@ -8,7 +8,71 @@ Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o regi
 
 \subsection{Descrição de Alto Nível}
 
+\textbf{1. Camada de Hardware e Sensoriamento}
+
+\underline{Coleta de Dados}
+
+    O sistema utiliza o sensor DHT11 para capturar grandezas físicas de temperatura e umidade. A leitura é processada em intervalos definidos pelo modo de operação, evitando o aquecimento do sensor e garantindo a estabilidade dos dados.
+
+\underline{Sinalização Visual}
+
+    O controle de LEDs opera como uma interface de hardware imediata. Estados de alerta possuem prioridade sobre a sinalização de modo, acionando um ciclo de intermitência rápida (100ms) em todos os terminais de saída quando os limites de segurança são violados.
+
+\textbf{2. Lógica de Controle (Firmware)}
+
+\underline{Máquina de Estados}
+
+    Modo 0 (Desligado): O sensor permanece em standby e apenas o LED de status pulsa para indicar atividade do processador.
+
+    Modo 1 (Automático): Ativa o monitoramento contínuo e a rotina de persistência de dados.
+
+    Modo 2 (Ligado): Mantém o monitoramento e habilita a configuração de parâmetros via rede.
+
+\underline{Persistência de Dados e Temporalidade}
+
+    Utilização do sistema SPIFFS para gravar arquivos de texto na memória flash interna.
+
+    Sincronização via protocolo NTP para atribuir data e hora reais às medições, independente de hardware de relógio externo (RTC).
+
+\underline{Servidor Web Embutido}
+
+    Gerenciamento de rotas HTTP para servir arquivos estáticos e responder a requisições dinâmicas de API em formato JSON.
+
+\textbf{3. Interface do Usuário e Comunicação (Front-end)}
+
+\underline{Dinamismo da Interface}
+
+    O arquivo index.html funciona como uma página única que se comunica com o ESP32 via requisições assíncronas (AJAX).
+
+    Atualização em tempo real do DOM (Document Object Model) para refletir mudanças na temperatura e umidade sem necessidade de recarregar o navegador.
+
+\underline{Painel de Controle e Feedback}
+
+    Tradução de comandos do usuário (cliques e entradas numéricas) em parâmetros de URL para manipulação de variáveis globais no firmware.
+
+    Exibição de notificações e estados do sensor (Online/Offline) baseada na validação de integridade dos dados recebidos do backend.
+
+\textbf{4. Gestão de Erros e Segurança Lógica}
+
+\underline{Tratamento de Exceções de Hardware}
+
+    Verificação de valores nulos ou inválidos (NaN) para prevenir falhas na lógica de alerta e na gravação de logs corrompidos.
+
+\underline{Validação de Comandos}
+
+    Implementação de restrições de escrita; alterações de setpoints e unidades de medida são bloqueadas em modos de baixa prioridade para evitar conflitos de memória e garantir a estabilidade da operação automática.
+
 \subsection{Protótipo Funcional}
+
+Quando o sistema está em funcionamento, o hardware apresenta as seguintes características:
+
+\textbf{Modo: Ligado} - os 3 LEDs ficam ligados ininterruptamente;
+
+\textbf{Modo: Automático} - 2 LEDs piscam;
+
+\textbf{Modo: Desligado} - 1 LED pisca;
+
+\textbf{Alerta de temperatura máxima} - 3 LEDs piscando;
 
 \subsection{Fluxo de Dados}
 
@@ -22,7 +86,7 @@ O fluxo de operações do sistema pode ser descrito conforme os passos a seguir:
     
     \item O ESP32 processa os dados recebidos e os encaminha ao banco de dados via requisição HTTP/HTTPS, registrando cada leitura;
 
-    \item A interface web consulta o banco de dados e exibe os dados de temperatura e umidade em tempo real para o cliente, além de permitir a alternância entre os modos de operação (normal e economia de energia);
+    \item A interface web consulta o banco de dados e exibe os dados de temperatura e umidade em tempo real para o cliente, além de permitir a alternância entre os modos de operação;
 
     \item Ao receber um comando de alternância de modo, o ESP32 atualiza o estado interno e aciona o LED indicador correspondente, refletindo o modo de operação ativo. 
 
