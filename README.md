@@ -170,7 +170,7 @@ Usar a ferramenta: ESP32 Sketch Data Upload
 ```
 esp32_ps26.1/
 ├── src/
-│   └── main.ino          # Firmware principal (ESP32)
+│   └── main.cpp          # Firmware principal (ESP32)
 ├── data/
 │   └── index.html        # Interface web (servida via SPIFFS)
 ├── platformio.ini        # Configuração do PlatformIO
