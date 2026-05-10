@@ -585,6 +585,10 @@ INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
 INPUT ./Seções/diagrama_de_blocos.tex
 INPUT ./Seções/diagrama_de_blocos.tex
 INPUT Seções/diagrama_de_blocos.tex
@@ -593,6 +597,15 @@ INPUT ./imagens/diagramaemblocos.png
 INPUT ./imagens/diagramaemblocos.png
 INPUT ./imagens/diagramaemblocos.png
 INPUT ./imagens/diagramaemblocos.png
+INPUT ./imagens/esquemático.png
+INPUT ./imagens/esquemático.png
+INPUT ./imagens/esquemático.png
+INPUT ./imagens/esquemático.png
+INPUT ./imagens/esquemático.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
+INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
@@ -626,15 +639,10 @@ INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
-INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
-INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
-INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
 INPUT ./img_arquivo/fundo_default.png
-INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
 INPUT ./Seções/Descricao de Hardware.tex
 INPUT ./Seções/Descricao de Hardware.tex
 INPUT Seções/Descricao de Hardware.tex
@@ -646,6 +654,9 @@ INPUT ./imagens/microcontrolador.png
 INPUT ./imagens/microcontrolador.png
 INPUT ./imagens/microcontrolador.png
 INPUT ./imagens/microcontrolador.png
+INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
+INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
+INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
 INPUT ./imagens/sensordht11.png
 INPUT ./imagens/sensordht11.png
