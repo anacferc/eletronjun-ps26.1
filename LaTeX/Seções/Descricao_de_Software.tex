@@ -18,6 +18,8 @@ Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o regi
 
     O controle de LEDs opera como uma interface de hardware imediata. Estados de alerta possuem prioridade sobre a sinalização de modo, acionando um ciclo de intermitência rápida (100ms) em todos os terminais de saída quando os limites de segurança são violados.
 
+\vspace{0.5cm}
+
 \textbf{2. Lógica de Controle (Firmware)}
 
 \underline{Máquina de Estados}
@@ -38,6 +40,8 @@ Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o regi
 
     Gerenciamento de rotas HTTP para servir arquivos estáticos e responder a requisições dinâmicas de API em formato JSON.
 
+\vspace{0.5cm}
+
 \textbf{3. Interface do Usuário e Comunicação (Front-end)}
 
 \underline{Dinamismo da Interface}
@@ -52,6 +56,8 @@ Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o regi
 
     Exibição de notificações e estados do sensor (Online/Offline) baseada na validação de integridade dos dados recebidos do backend.
 
+\vspace{0.5cm}
+
 \textbf{4. Gestão de Erros e Segurança Lógica}
 
 \underline{Tratamento de Exceções de Hardware}
@@ -62,17 +68,7 @@ Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o regi
 
     Implementação de restrições de escrita; alterações de setpoints e unidades de medida são bloqueadas em modos de baixa prioridade para evitar conflitos de memória e garantir a estabilidade da operação automática.
 
-\subsection{Protótipo Funcional}
 
-Quando o sistema está em funcionamento, o hardware apresenta as seguintes características:
-
-\textbf{Modo: Ligado} - os 3 LEDs ficam ligados ininterruptamente;
-
-\textbf{Modo: Automático} - 2 LEDs piscam;
-
-\textbf{Modo: Desligado} - 1 LED pisca;
-
-\textbf{Alerta de temperatura máxima} - 3 LEDs piscando;
 
 \subsection{Fluxo de Dados}
 
@@ -91,3 +87,80 @@ O fluxo de operações do sistema pode ser descrito conforme os passos a seguir:
     \item Ao receber um comando de alternância de modo, o ESP32 atualiza o estado interno e aciona o LED indicador correspondente, refletindo o modo de operação ativo. 
 
 \end{enumerate}
+
+\subsection{Protótipo Funcional}
+
+Quando o sistema está em funcionamento, o hardware apresenta as seguintes características:
+
+\textbf{Modo: Ligado} - os 3 LEDs ficam ligados ininterruptamente;
+
+\textbf{Modo: Automático} - 2 LEDs piscam;
+
+\textbf{Modo: Desligado} - 1 LED pisca;
+
+\textbf{Alerta de temperatura máxima} - 3 LEDs piscando;
+
+\subsection{Modo de Uso Básico}
+
+\textbf{\large 1. Conexão e Alimentação}
+
+Para iniciar, conecte a placa ESP32 ao seu computador utilizando um cabo Micro-USB de boa qualidade.
+\begin{itemize}
+    \item \textbf{Reconhecimento:} O computador deverá emitir um som de novo dispositivo conectado.
+    \item \textbf{Alimentação:} O LED de power da placa acenderá, indicando que ela está recebendo energia.
+\end{itemize}
+
+
+\textbf{\large 2. Obtenção do Código (GitHub)} 
+
+Antes de configurar a IDE, você deve baixar os arquivos do projeto diretamente do repositório oficial.
+
+\begin{itemize}
+    \item \textbf{Via Download Direto:} Acesse o repositório \url{https://github.com/din0t4/esp32_ps26.1}, clique no botão verde \textbf{"Code"} e selecione \textbf{"Download ZIP"}. Extraia os arquivos em uma pasta de sua preferência.
+    \item \textbf{Via Terminal (Git):} Se você possui o Git instalado, utilize o comando:
+    \begin{verbatim}
+    git clone https://github.com/din0t4/esp32_ps26.1.git
+    \end{verbatim}
+    \item \textbf{Localização:} O arquivo principal do código estará na pasta src, e os arquivos do site estarão dentro da pasta \textbf{data}.
+\end{itemize}
+
+
+\textbf{\large 3. Preparação do Ambiente (PlatformIO)} 
+
+Abra o arquivo extraído e prepare o software:
+\begin{itemize}
+    \item \textbf{Placa:} Vá em \textit{Ferramentas > Placa} e selecione \textbf{DOIT ESP32 DEVKIT V1}.
+    \item \textbf{Porta:} Selecione a porta COM ativa.
+    \item \textbf{Bibliotecas:} Instale \textbf{DHT sensor library, WiFi, WebServer e SPIFFS} no Gerenciador de Bibliotecas.
+\end{itemize}
+
+\textbf{\large 4. Upload do Código e Arquivos} 
+\begin{itemize}
+    \item \textbf{Código (.ino):} Clique em "Upload" para gravar a lógica.
+    \item \textbf{Interface Web:} Use a ferramenta \textbf{ESP32 Sketch Data Upload} para enviar a pasta \textbf{data}.
+\end{itemize}
+
+
+\textbf{\large 5. Inicialização e Conexão Wi-Fi} 
+
+Abra o Monitor Serial em \textbf{115200 baud}.
+\begin{itemize}
+    \item A placa exibirá o \textbf{IP: 192.168.x.x}. Anote este número para acessar o dashboard pelo navegador.
+\end{itemize}
+
+
+\textbf{\large 6. Operação do Sistema} 
+\begin{itemize}
+    \item \textbf{Troca de Modos:} Escolha entre Desligado, Automático ou Ligado.
+    \item \textbf{Configuração:} No modo \textbf{Ligado}, ajuste a temperatura máxima e a unidade (°C/°F).
+    \item \textbf{Histórico:} Clique em \textbf{Baixar Histórico de Logs} para obter o arquivo \textit{log.txt}.
+\end{itemize}
+
+\vspace{1cm}
+
+\textbf{\large Resumo Técnico dos Componentes} 
+\begin{itemize}
+    \item \textbf{ESP32:} Processamento e servidor web.
+    \item \textbf{DHT11:} Sensor de umidade e temperatura.
+    \item \textbf{SPIFFS:} Memória interna para o site e logs.
+\end{itemize}
