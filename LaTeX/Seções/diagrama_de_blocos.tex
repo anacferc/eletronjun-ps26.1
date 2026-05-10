@@ -10,21 +10,3 @@ Os LEDs indicadores serão acionados diretamente pelos pinos digitais do ESP32, 
     \caption{Diagrama de blocos do sistema de monitoramento ambienal com ESP32 e DHT11.}
     \label{fig:fluxograma_software}
 \end{figure}
-
-\subsection{Fluxo de Dados}
-
-O fluxo de operações do sistema pode ser descrito conforme os passos a seguir:
-
-\begin{enumerate}
-
-    \item O ESP32 inicializa, conecta-se à rede Wi-Fi e aguarda comandos ou eventos;
-    
-    \item O sensor DHT11 realiza medições periódicas de temperatura e umidade, enviando os dados ao ESP32;
-    
-    \item O ESP32 processa os dados recebidos e os encaminha ao banco de dados via requisição HTTP/HTTPS, registrando cada leitura;
-
-    \item A interface web consulta o banco de dados e exibe os dados de temperatura e umidade em tempo real para o cliente, além de permitir a alternância entre os modos de operação (normal e economia de energia);
-
-    \item Ao receber um comando de alternância de modo, o ESP32 atualiza o estado interno e aciona o LED indicador correspondente, refletindo o modo de operação ativo. 
-
-\end{enumerate}

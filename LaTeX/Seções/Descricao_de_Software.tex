@@ -5,3 +5,25 @@ O Controle de Dados é a camada responsável por receber os dados brutos proveni
 A camada de Comunicação gerencia toda a troca de informações entre o hardware e os serviços externos. O firmware do ESP32 utiliza o protocolo HTTP/HTTPS para enviar leituras ao banco de dados remoto e para receber comandos originados na interface web.
 
 Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o registro remoto em banco de dados relacional, acessado pela interface web para a exibição do histórico de leituras (requisito \textbf{RF06}), e o armazenamento local em arquivo \texttt{.txt} gravado na memória flash do ESP32, que garante a persistência dos dados mesmo na ausência de conectividade com a rede (requisito \textbf{RF09}).
+
+\subsection{Descrição de Alto Nível}
+
+\subsection{Protótipo Funcional}
+
+\subsection{Fluxo de Dados}
+
+O fluxo de operações do sistema pode ser descrito conforme os passos a seguir:
+
+\begin{enumerate}
+
+    \item O ESP32 inicializa, conecta-se à rede Wi-Fi e aguarda comandos ou eventos;
+    
+    \item O sensor DHT11 realiza medições periódicas de temperatura e umidade, enviando os dados ao ESP32;
+    
+    \item O ESP32 processa os dados recebidos e os encaminha ao banco de dados via requisição HTTP/HTTPS, registrando cada leitura;
+
+    \item A interface web consulta o banco de dados e exibe os dados de temperatura e umidade em tempo real para o cliente, além de permitir a alternância entre os modos de operação (normal e economia de energia);
+
+    \item Ao receber um comando de alternância de modo, o ESP32 atualiza o estado interno e aciona o LED indicador correspondente, refletindo o modo de operação ativo. 
+
+\end{enumerate}
