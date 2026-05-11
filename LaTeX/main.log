@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.24)  11 MAY 2026 20:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.24)  11 MAY 2026 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1128,11 +1128,11 @@ File: imagens/diagramaemblocos.png Graphic file (type png)
 <use imagens/diagramaemblocos.png>
 Package pdftex.def Info: imagens/diagramaemblocos.png  used on input line 11.
 (pdftex.def)             Requested size: 328.6279pt x 184.93901pt.
-<imagens/esp32esquematico.png, id=289, 594.72188pt x 473.51906pt>
-File: imagens/esp32esquematico.png Graphic file (type png)
-<use imagens/esp32esquematico.png>
-Package pdftex.def Info: imagens/esp32esquematico.png  used on input line 22.
-(pdftex.def)             Requested size: 328.6279pt x 261.65013pt.
+<imagens/esquematico2.png, id=289, 341.02406pt x 261.97874pt>
+File: imagens/esquematico2.png Graphic file (type png)
+<use imagens/esquematico2.png>
+Package pdftex.def Info: imagens/esquematico2.png  used on input line 22.
+(pdftex.def)             Requested size: 328.6279pt x 252.47212pt.
 )
 File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
@@ -1148,7 +1148,7 @@ File: img_arquivo/fundo_default.png Graphic file (type png)
 <use img_arquivo/fundo_default.png>
 Package pdftex.def Info: img_arquivo/fundo_default.png  used on input line 10.
 (pdftex.def)             Requested size: 597.73166pt x 845.40636pt.
- [8 <./imagens/esp32esquematico.png> <./imagens/Interface_baixa_fidelidade.png>]
+ [8 <./imagens/esquematico2.png> <./imagens/Interface_baixa_fidelidade.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 11.
 <imagens/sistema_celsius.jpeg, id=305, 1440.38126pt x 1212.53pt>
@@ -1355,14 +1355,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  42197 strings out of 467349
- 936529 string characters out of 5419862
+ 936501 string characters out of 5419862
  1566014 words of memory out of 5000000
  70382 multiletter control sequences out of 15000+600000
  676295 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,97p,1108b,674s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (21 pages, 3723484 bytes).
+Output written on main.pdf (21 pages, 3710037 bytes).
 PDF statistics:
  463 PDF objects out of 1000 (max. 8388607)
  382 compressed objects within 4 object streams

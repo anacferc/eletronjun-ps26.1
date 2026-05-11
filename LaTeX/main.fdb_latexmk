@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1778540722.495 "c:/Users/Dell/eletronjun-ps26.1/LaTeX/main.tex" "main.pdf" "main" 1778540726.81321 0
+["pdflatex"] 1778542191.97151 "c:/Users/Dell/eletronjun-ps26.1/LaTeX/main.tex" "main.pdf" "main" 1778542200.35501 0
   "Seções/Analise de Requisitos.tex" 1778539845 6828 dc651b3c2c07ef149bac9562a8de79e4 ""
   "Seções/BOM.tex" 1778539845 1724 f783ddce4743df1f29ecec2acc78c551 ""
   "Seções/Descricao de Hardware.tex" 1778539845 6737 78ead0df727951def1ecdfb4e4b65a27 ""
@@ -7,7 +7,7 @@
   "Seções/Fluxograma_de_Software.tex" 1778540720 3186 bbd1d8bd586118f4c373bdb301dac610 ""
   "Seções/Introducao.tex" 1778539845 1465 cfecad3ca2796483021ba4baf214965a ""
   "Seções/Prototipos de Interface.tex" 1778539845 4035 27b3caf2447cc740a9df0c5848ba351b ""
-  "Seções/diagrama_de_blocos.tex" 1778540303 1705 6425490892ec658a39c4e739f1e0062d ""
+  "Seções/diagrama_de_blocos.tex" 1778542186 1701 9b5ea29c5353e1f3dd3c622268bac56d ""
   "c:/Users/Dell/eletronjun-ps26.1/LaTeX/main.tex" 1778539845 1085 8fd4442e820d6480cba2182f6a093661 ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1777078471 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1777077959 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -313,7 +313,7 @@
   "imagens/adaptador9v.png" 1777698186 97094 cb25b798006423320e9fa689d98993e6 ""
   "imagens/bateria.png" 1777698186 92295 a7f62fbaf937489e617dfa3fbd1c77db ""
   "imagens/diagramaemblocos.png" 1778539845 983462 8872dc79008dbbf1992a583e9fa32aaf ""
-  "imagens/esp32esquematico.png" 1778540202 43200 43c97e1baa0e6cd38b7666b0ca1001ab ""
+  "imagens/esquematico2.png" 1778542087 21062 a5d81254304bb19e95bc7a543531c597 ""
   "imagens/fluxograma.png" 1778540643 67482 77abaa432977e51ceb675526ec7b3a72 ""
   "imagens/jumpermachomacho.png" 1778539845 135592 2fb73ef87be93eb4bb6a37527756d931 ""
   "imagens/led.png" 1778539845 32122 9e7eaeb15e76b607a37b5771b417b686 ""
@@ -330,10 +330,10 @@
   "img_arquivo/capaEJ.png" 1777698186 65134 acc1a2056a8840311dd8f72c525fa139 ""
   "img_arquivo/fundo_default.png" 1777698186 23552 4d20513db1fb46fc656601af46054e95 ""
   "includes.tex" 1777698186 12991 d7003b71bac5fe97ccacbbae2ff4b94f ""
-  "main.aux" 1778540726 9006 4c9673f647fbe3ce428bc503b4a3353b "pdflatex"
-  "main.out" 1778540726 7850 60eccdf33922b08600ddfbcc0755fb82 "pdflatex"
+  "main.aux" 1778542199 9006 4c9673f647fbe3ce428bc503b4a3353b "pdflatex"
+  "main.out" 1778542199 7850 60eccdf33922b08600ddfbcc0755fb82 "pdflatex"
   "main.tex" 1778539845 1085 8fd4442e820d6480cba2182f6a093661 ""
-  "main.toc" 1778540726 4354 b35d129a75465bb00c4af4419d1a86ca "pdflatex"
+  "main.toc" 1778542199 4354 b35d129a75465bb00c4af4419d1a86ca "pdflatex"
   (generated)
   "main.aux"
   "main.log"
