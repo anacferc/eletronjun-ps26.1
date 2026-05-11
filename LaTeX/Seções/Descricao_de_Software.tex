@@ -2,9 +2,9 @@
 
 O Controle de Dados é a camada responsável por receber os dados brutos provenientes do sensor DHT11, validá-los, aplicar os procedimentos de calibração necessários e encaminhá-los às demais camadas do sistema. Essa camada implementa também a lógica de detecção de anomalias: quando um valor lido excede os limiares pré-configurados pelo usuário, o módulo aciona simultaneamente a camada de comunicação para enviar notificações por e-mail e a interface web para a exibição dos alertas e da alternância de modos.
 
-A camada de Comunicação gerencia toda a troca de informações entre o hardware e os serviços externos. O firmware do ESP32 utiliza o protocolo HTTP/HTTPS para enviar leituras ao banco de dados remoto e para receber comandos originados na interface web.
+A camada de Comunicação gerencia toda a troca de informações entre o hardware e os serviços externos. O firmware do ESP32 utiliza o protocolo HTTP/HTTPS para enviar leituras, servindo como um servidor HTTP, e para receber comandos originados na interface web.
 
-Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o registro remoto em banco de dados relacional, acessado pela interface web para a exibição do histórico de leituras (requisito \textbf{RF06}), e o armazenamento local em arquivo \texttt{.txt} gravado na memória flash do ESP32, que garante a persistência dos dados mesmo na ausência de conectividade com a rede (requisito \textbf{RF09}).
+Por fim, o Armazenamento de Dados engloba dois mecanismos complementares: o registro remoto em um servidor HTTP, acessado pela interface web para a exibição do histórico de leituras (requisito \textbf{RF06}), e o armazenamento local em arquivo \texttt{.txt} gravado na memória flash do ESP32, que garante a persistência dos dados mesmo na ausência de conectividade com a rede (requisito \textbf{RF09}).
 
 \subsection{Descrição de Alto Nível}
 
@@ -80,9 +80,9 @@ O fluxo de operações do sistema pode ser descrito conforme os passos a seguir:
     
     \item O sensor DHT11 realiza medições periódicas de temperatura e umidade, enviando os dados ao ESP32;
     
-    \item O ESP32 processa os dados recebidos e os encaminha ao banco de dados via requisição HTTP/HTTPS, registrando cada leitura;
+    \item O ESP32 processa os dados recebidos e os encaminha ao servidor HTTP via requisição HTTP/HTTPS, registrando cada leitura;
 
-    \item A interface web consulta o banco de dados e exibe os dados de temperatura e umidade em tempo real para o cliente, além de permitir a alternância entre os modos de operação;
+    \item A interface web consulta o servidor HTTP e exibe os dados de temperatura e umidade em tempo real para o cliente, além de permitir a alternância entre os modos de operação;
 
     \item Ao receber um comando de alternância de modo, o ESP32 atualiza o estado interno e aciona o LED indicador correspondente, refletindo o modo de operação ativo. 
 

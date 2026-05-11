@@ -42,3 +42,4 @@
 \contentsline {subsection}{\numberline {7.4}Modo de Uso Básico}{18}{subsection.7.4}%
 \contentsline {section}{\numberline {8}Bill of Materials}{19}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Total}{20}{subsection.8.1}%
+\contentsline {section}{\numberline {9}Conclusão}{20}{section.9}%
