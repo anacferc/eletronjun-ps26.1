@@ -1,4 +1,4 @@
-O hardware do equipamento foi organizado em 3 grandes partes: A unidade de controle, as conexões com os sensores e a alimentação do circuito.
+O hardware do equipamento foi organizado em 3 grandes partes: A unidade de controle, as conexões e a alimentação do circuito.
 
 \subsection{Arquitetura Geral}
 
@@ -58,7 +58,7 @@ A unidade de controle é a parte responsável por executar os requisitos propost
 
 \subsection{Conexões}
 
-As conexões com os sensores são responsáveis pela execução e funcionamento dos sensores e de onde eles são executados. Com isso, utilizaremos uma Placa Fenolite Perfurada, onde as conexões serão executadas e se tornarão funcionais, também incluiremos os jumpers macho-fêmea, para fazer a ligação entre o microprocessador e o sensor. Por fim, utilizaremos um resistor de 10k ohms, que é necessário para trabalhar com sensores DHT e garante a estabilidade do sinal de dados entre o sensor e o microcontrolador.
+As conexões são responsáveis pela execução e funcionamento dos sensores e de onde eles são executados. Com isso, utilizaremos uma Placa Fenolite Perfurada, onde as conexões serão executadas e se tornarão funcionais, também incluiremos os jumpers macho-macho, para fazer a ligação entre o microprocessador e o sensor. Por fim, utilizaremos um resistor de 10k ohms, que é necessário para trabalhar com sensores DHT e garante a estabilidade do sinal de dados entre o sensor e o microcontrolador.
 
 {    
 \small % Define o tamanho da fonte para a tabela
@@ -86,11 +86,11 @@ Placa Fenolite Perfurada 7x5cm \par R\$ 2,38 -- R\$ 4,90 &
 3. Dimensões Ilha: 2,54 mm \\ \hline
 
 % --- CONTEÚDO DA LINHA 2 ---
-Jumpers - Macho/Femea \par R\$ 4,66 -- R\$ 19,98 & 
-\centering \includegraphics[width=2cm]{imagens/jumpersmachofemea.png} & 
+Jumpers - Macho/Macho \par R\$ 0,15 -- R\$0,50 & 
+\centering \includegraphics[width=2cm]{imagens/jumpermachomacho.png} & 
 1. Quantidade: Kit 40 unidades \par
 2. Comprimento: 10 cm \par
-3. Tipo: Macho-Fêmea \\ \hline
+3. Tipo: Macho-Macho \\ \hline
 
 % --- CONTEÚDO DA LINHA 3 ---
 Resistor 10K 1/4W \par R\$ 0,22 -- R\$ 0,86 & 
@@ -106,7 +106,7 @@ LED\par R\$ 0,41 &
 }
 
 \subsection{Alimentação}
-Na alimentação do nosso sensor, podem ser utilizadas duas formas de fornecer energia: por meio de uma fonte de 5V DC, ou por meio de uma bateria de 9V conectada ao pino VIN/DC. Caso escolha utilizar a fonte, elas regulam a tensão sem chaveamento de alta frequência, minimizando ruídos na leitura do sensor de temperatura. Caso contrário, as baterias fornecem uma tensão contínua pura, não produzindo qualquer tipo de ruído. São dois ótimos tipos de alimentação do sistema, ficando a critério do cliente, se deseja algo fixo ou algo portátil.
+Na alimentação do nosso sensor, podem ser utilizadas duas formas de fornecer energia: por meio de um cabo micro-USB, ou por meio de uma bateria de 9V conectada ao pino VIN/DC. Caso escolha utilizar a fonte, elas regulam a tensão sem chaveamento de alta frequência, minimizando ruídos na leitura do sensor de temperatura. Caso contrário, as baterias fornecem uma tensão contínua pura, não produzindo qualquer tipo de ruído. São dois ótimos tipos de alimentação do sistema, ficando a critério do cliente, se deseja algo fixo ou algo portátil.
 
 {    
 \small % Define o tamanho da fonte para a tabela
